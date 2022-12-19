@@ -1,0 +1,12 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost/test
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&serverTimezone=GMT%2B8
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    type: com.alibaba.druid.pool.DruidDataSource
+

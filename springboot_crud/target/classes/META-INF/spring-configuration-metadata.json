@@ -1,0 +1,29 @@
+{
+  "groups": [
+    {
+      "name": "servers",
+      "type": "com.ws.config.ServerConfig",
+      "sourceType": "com.ws.config.ServerConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "servers.ip-address",
+      "type": "java.lang.String",
+      "sourceType": "com.ws.config.ServerConfig"
+    },
+    {
+      "name": "servers.port",
+      "type": "java.lang.Integer",
+      "sourceType": "com.ws.config.ServerConfig",
+      "defaultValue": 0
+    },
+    {
+      "name": "servers.timeout",
+      "type": "java.lang.Long",
+      "sourceType": "com.ws.config.ServerConfig",
+      "defaultValue": 0
+    }
+  ],
+  "hints": []
+}

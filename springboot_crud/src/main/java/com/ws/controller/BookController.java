@@ -32,7 +32,6 @@ public class BookController {
         return new Result(true, iBookService.getById(id),"查询成功！");
     }
 
-    //分页查询
     @GetMapping("/getPage/{currentPage}/{pageSize}")
     public Result getPage(@PathVariable int currentPage,@PathVariable int pageSize){
         log.info("查询成功！");

@@ -2,6 +2,8 @@ package com.ws;
 
 import com.ws.config.MPConfig;
 import com.ws.config.ServerConfig;
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -18,7 +20,9 @@ public class CRUDApplication {
         ServerConfig serverConfigBean = ctx.getBean(ServerConfig.class);
         System.out.println(serverConfigBean);
 
-        MPConfig mpConfigBean = ctx.getBean(MPConfig.class);
-        System.out.println(mpConfigBean);
+
+
+
+
     }
 }

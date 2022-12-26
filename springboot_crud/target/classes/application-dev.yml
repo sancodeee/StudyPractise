@@ -18,5 +18,5 @@ mybatis-plus:
 
 servers:
   ipAddress: 192.168.0.1
-  port: 9000
+  port: 8888
   timeout: -1

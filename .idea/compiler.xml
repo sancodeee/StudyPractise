@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springboot_easyexcel" />
         <module name="EnumDemo" />
         <module name="springboot_crud" />
         <module name="springboot_redis" />
@@ -20,6 +21,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="EnumDemo" options="-parameters" />
       <module name="springboot_crud" options="-parameters" />
+      <module name="springboot_easyexcel" options="-parameters" />
       <module name="springboot_es" options="-parameters" />
       <module name="springboot_mongodb" options="-parameters" />
       <module name="springboot_redis" options="-parameters" />

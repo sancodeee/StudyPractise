@@ -15,6 +15,7 @@
         <module>springboot_mongodb</module>
         <module>springboot_redis</module>
         <module>springboot_crud</module>
+        <module>springboot_easyexcel</module>
 
     </modules>
 

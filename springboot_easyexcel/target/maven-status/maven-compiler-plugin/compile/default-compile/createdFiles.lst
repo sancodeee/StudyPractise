@@ -1,0 +1,9 @@
+com\ws\mapper\BookMapper.class
+com\ws\listener\BookListenerV2.class
+com\ws\service\Impl\BookServiceImpl.class
+com\ws\entity\Book.class
+com\ws\result\ResponseResult.class
+com\ws\controller\EasyExcelReadAndWrite.class
+com\ws\listener\BookListener.class
+com\ws\service\BookService.class
+com\ws\EasyExcelApplication.class

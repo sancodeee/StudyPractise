@@ -45,6 +45,6 @@ public class BookListenerV2 extends AnalysisEventListener<Map<Integer,String>> {
 
     public void saveData(){
 
-        log.info("存储数据：");
+        log.info("保存读取数据...");
     }
 }

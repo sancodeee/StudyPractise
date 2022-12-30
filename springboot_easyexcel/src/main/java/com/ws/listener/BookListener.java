@@ -18,7 +18,7 @@ public class BookListener extends AnalysisEventListener<Book> {
     @Autowired
     private BookService bookService;
 
-    //开辟一个长度为5的list空间当作缓存 防止一次性读取太多条数据内存溢出
+    //开辟一个长度为5的list缓存空间 防止一次性读取太多条数据内存溢出
     private static final int BATCH_COUNT = 5;
     private List<Book> cachedDataList = Lists.newArrayListWithExpectedSize(BATCH_COUNT);
 
@@ -33,6 +33,9 @@ public class BookListener extends AnalysisEventListener<Book> {
        log.info("读取一行数据：" + book);
        cachedDataList.add(book);
        if(cachedDataList.size() >= BATCH_COUNT){
+           //保存数据到数据库
+           savaData(cachedDataList);
+           //清空缓存
            cachedDataList = Lists.newArrayListWithExpectedSize(BATCH_COUNT);
        }
 
@@ -46,7 +49,7 @@ public class BookListener extends AnalysisEventListener<Book> {
     }
 
     //数据持久化操作
-    public void savaData(){
+    public void savaData(List cachedDataList){
         //缓存满了往数据库存数据
         boolean saveResult = bookService.saveBatch(cachedDataList);
         if(saveResult == true){

@@ -1,35 +1,45 @@
 package com.ws.controller.result;
 
+import lombok.AccessLevel;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.experimental.Accessors;
 
 @Data
-@NoArgsConstructor
-@AllArgsConstructor
-public class Result {
+@NoArgsConstructor(access = AccessLevel.PRIVATE)
+@AllArgsConstructor(access = AccessLevel.PRIVATE)
+@Accessors(chain = true)
+public class Result<T> {
 
     private Boolean success;
-    private Object result;
+    private T result;
     private String msg;
 
-    public Result(Boolean success){
-        this.success = success;
+    //查询成功统一响应体
+    public static<T> Result<T> queryOk(T result){
+        Result<T> r = new Result<>();
+        r.setSuccess(true)
+                .setMsg("查询成功！")
+                .setResult(result);
+        return r;
     }
 
-    public Result(Boolean success, String msg){
-        this.success = success;
-        this.msg = msg;
+    //插入成功统一响应体
+    public static<T> Result<T> insertOk(T result){
+        Result<T> r = new Result<>();
+        r.setSuccess(true)
+                .setMsg("插入成功！")
+                .setResult(result);
+        return r;
     }
 
-    public Result(Boolean success, Object result){
-        this.success = success;
-        this.result = result;
+    public static<T> Result<T> insertOk(){
+        Result<T> r = new Result<>();
+        r.setSuccess(true)
+                .setMsg("插入成功！")
+                .setResult(null);
+        return r;
     }
-
-    public Result(Object result){
-        this.result = result;
-    }
-
 
 }

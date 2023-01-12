@@ -10,7 +10,6 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-import java.sql.Wrapper;
 import java.util.List;
 
 @SpringBootTest
@@ -49,25 +48,34 @@ public class BookMapperTest {
         book.setName("活着");
         book.setDescription("以中国内战和新中国成立后历次政治运动为背景，通过男主人公福贵一生的坎坷经历，反映了一代中国人的命运。");
         bookMapper.updateById(book);
+
     }
 
     //MP分页查询 需要提供拦截器才能实现
     @Test
     void getPageTest(){
-        IPage page = new Page(1,6);
-        bookMapper.selectPage(page,null);
-        System.out.println(page.getCurrent());
-        System.out.println(page.getPages());
-        System.out.println(page.getSize());
-        System.out.println(page.getTotal());
-        System.out.println(page.getRecords());
+        IPage page = new Page(1,5);
+        LambdaQueryWrapper<Book> queryWrapper = new LambdaQueryWrapper<>();
+        queryWrapper.orderByDesc(Book::getId);
+        IPage<Book> bookIPage = bookMapper.selectPage(page,queryWrapper);
+        List<Book> records = bookIPage.getRecords();
+        for (int i = 0; i < records.size(); i++) {
+            System.out.println(records.get(i));
+        }
+//        bookMapper.selectPage(page,null);
+        //获取当前页
+        System.out.println("获取当前起始页："+page.getCurrent());
+        System.out.println("获取总页数："+page.getPages());
+        System.out.println("获取每页条数："+page.getSize());
+        System.out.println("获取库中总数据条数"+page.getTotal());
+        System.out.println("得到起始页的对象集合list"+page.getRecords());
     }
 
     //条件查询
     @Test
     void getByWrapper(){
         QueryWrapper<Book> wrapper = new QueryWrapper<>();
-        wrapper.like("name","老人");
+        wrapper.like("name","日记");
         List<Book> books = bookMapper.selectList(wrapper);
 
     }
@@ -76,7 +84,8 @@ public class BookMapperTest {
     @Test
     void getByWrapperL(){
         LambdaQueryWrapper<Book> lambdaQueryWrapper = new LambdaQueryWrapper<>();
-        lambdaQueryWrapper.like(Book::getName,"老人");
+        lambdaQueryWrapper.like(Book::getName,"日记");
+        lambdaQueryWrapper.orderByDesc(Book::getId);
         bookMapper.selectList(lambdaQueryWrapper);
     }
 

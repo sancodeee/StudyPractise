@@ -60,6 +60,7 @@
             <artifactId>mybatis-plus-boot-starter</artifactId>
             <version>${mybatis-plus.version}</version>
         </dependency>
+
         <!--               测试单元               -->
         <dependency>
             <groupId>junit</groupId>

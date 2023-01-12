@@ -17,7 +17,8 @@ public class ProjectExceptionAdvice {
         //打印异常信息
         e.printStackTrace();
         //统一异常返回到前端的格式 让格式一致
-        return new Result(false,ErrorCodes.SERVER_ERROR.getErrorCode(),ErrorCodes.SERVER_ERROR.getErrorMessage());
+//        return new Result(false,ErrorCodes.SERVER_ERROR.getErrorCode(),ErrorCodes.SERVER_ERROR.getErrorMessage());
+        return null;
     }
 
 }

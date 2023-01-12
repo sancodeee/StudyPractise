@@ -40,7 +40,7 @@ public class ReadAndWriteController {
     @PostMapping("/book/read")
     public ResponseResult readExcel(@RequestPart("file") MultipartFile file) throws IOException {
         //基于监听器的读取实现
-        EasyExcel.read(file.getInputStream(),Book.class,new BookListener()).sheet("书籍信息").headRowNumber(2).doRead();
+        EasyExcel.read(file.getInputStream(),Book.class,new BookListener(bookService)).sheet("书籍信息").headRowNumber(2).doRead();
 
         return new ResponseResult(200,true,"读取成功");
     }

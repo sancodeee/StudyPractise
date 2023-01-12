@@ -1,8 +1,6 @@
 package com.ws.config;
 
-
 import lombok.Data;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.annotation.Validated;
@@ -22,6 +20,6 @@ public class ServerConfig {
     @Max(value = 8888,message = "端口号最大不能超过8888")
     @Min(value = 100,message = "端口号最小值不能小于100")
     private int port ;
-    private long timeout;
+    private long timeout ;
 
 }

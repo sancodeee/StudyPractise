@@ -10,7 +10,8 @@ public enum ErrorCodes {
     private final Integer errorCode;
     private final String errorMessage;
 
-    private ErrorCodes(Integer errorCode, String errorMessage) {
+    //枚举类型的构造方法默认就是 private
+    ErrorCodes(Integer errorCode, String errorMessage) {
         this.errorCode = errorCode;
         this.errorMessage = errorMessage;
     }

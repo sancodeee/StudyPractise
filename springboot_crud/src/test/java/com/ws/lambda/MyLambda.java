@@ -4,13 +4,18 @@ import com.baomidou.mybatisplus.core.conditions.AbstractWrapper;
 import com.ws.lambda.FunctionalInterface.*;
 import com.ws.lambda.FunctionalInterface.Impl.MyFunctionalImpl;
 import com.ws.lambda.FunctionalInterface.Impl.MyFunctionalImpl5;
+import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 import java.io.PrintStream;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Date;
 
 @SpringBootTest
+@Slf4j
 public class MyLambda {
 
     //使用匿名内部类，实现接口中的抽象方法：一个入参 无返回值
@@ -157,6 +162,18 @@ public class MyLambda {
         out.println("good!");
         //所以可以通过System.out::println()的方式实现方法引用
         list.forEach(System.out::println);
+    }
+
+    @Test
+    public void test() throws ParseException {
+        Date date = new Date();
+        log.info("日期：" + date);
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
+        String formatDate = simpleDateFormat.format(date);
+        log.info("格式化日期：" + formatDate);
+        Date parse = new SimpleDateFormat("yyyy-MM-dd").parse(formatDate);
+        log.info("字符串转日期格式：" + parse);
+
     }
 
 

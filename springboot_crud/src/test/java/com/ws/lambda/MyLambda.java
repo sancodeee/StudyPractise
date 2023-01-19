@@ -167,12 +167,12 @@ public class MyLambda {
     @Test
     public void test() throws ParseException {
         Date date = new Date();
-        log.info("日期：" + date);
-        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd");
+        log.info("日期类型日期：" + date);
+        SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
         String formatDate = simpleDateFormat.format(date);
-        log.info("格式化日期：" + formatDate);
-        Date parse = new SimpleDateFormat("yyyy-MM-dd").parse(formatDate);
-        log.info("字符串转日期格式：" + parse);
+        log.info("格式化成字符串日期：" + formatDate);
+        Date parse = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss").parse(formatDate);
+        log.info("字符串格式日期转成日期格式：" + parse);
 
     }
 

@@ -8,11 +8,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot_easyexcel" />
+        <module name="springboot_designPatterns" />
         <module name="EnumDemo" />
-        <module name="springboot_crud" />
-        <module name="springboot_redis" />
         <module name="springboot_es" />
         <module name="springboot_mongodb" />
+        <module name="springboot_cache" />
+        <module name="springboot_crud" />
+        <module name="springboot_redis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
@@ -20,7 +22,9 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="EnumDemo" options="-parameters" />
+      <module name="springboot_cache" options="-parameters" />
       <module name="springboot_crud" options="-parameters" />
+      <module name="springboot_designPatterns" options="-parameters" />
       <module name="springboot_easyexcel" options="-parameters" />
       <module name="springboot_es" options="-parameters" />
       <module name="springboot_mongodb" options="-parameters" />

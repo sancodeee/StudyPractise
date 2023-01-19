@@ -1,0 +1,17 @@
+com\ws\service\BookServiceTest.class
+com\ws\lambda\FunctionalInterface\MyFunctional.class
+com\ws\lambda\FunctionalInterface\MyFunctional2.class
+com\ws\lambda\FunctionalInterface\Impl\MyFunctionalImpl5.class
+com\ws\lambda\FunctionalInterface\MyFunctional3.class
+com\ws\lambda\MyLambda$5.class
+com\ws\mappers\BookMapperTest.class
+com\ws\lambda\FunctionalInterface\Impl\MyFunctionalImpl.class
+com\ws\lambda\MyLambda$4.class
+com\ws\lambda\FunctionalInterface\MyFunctional5.class
+com\ws\lambda\MyLambda$3.class
+com\ws\lambda\MyLambda.class
+com\ws\lambda\MyLambda$2.class
+com\ws\lambda\MyLambda$1.class
+com\ws\lambda\FunctionalInterface\MyFunctional4.class
+com\ws\lambda\MyLambda$6.class
+com\ws\service\IBookServiceTest.class

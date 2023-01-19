@@ -16,6 +16,8 @@
         <module>springboot_redis</module>
         <module>springboot_crud</module>
         <module>springboot_easyexcel</module>
+        <module>springboot_designPatterns</module>
+        <module>springboot_cache</module>
 
     </modules>
 

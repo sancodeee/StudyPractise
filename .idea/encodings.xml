@@ -2,8 +2,10 @@
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/EnumDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_cache/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_crud/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_crud/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_designPatterns/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_easyexcel/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_es/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_es/src/main/resources" charset="UTF-8" />

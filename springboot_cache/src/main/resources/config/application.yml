@@ -11,7 +11,7 @@ spring:
   cache:
     type: redis
   redis:
-    host: localhost
+    host: 101.42.176.44
     port: 6379
     client-type: lettuce
 

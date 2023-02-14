@@ -11,6 +11,7 @@
         <module name="springboot_designPatterns" />
         <module name="EnumDemo" />
         <module name="springboot_es" />
+        <module name="springboot_quartz" />
         <module name="springboot_mongodb" />
         <module name="springboot_cache" />
         <module name="springboot_crud" />

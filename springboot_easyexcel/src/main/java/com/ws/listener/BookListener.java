@@ -27,18 +27,19 @@ public class BookListener extends AnalysisEventListener<Book> {
 
     @Override
     public void invokeHead(Map<Integer, CellData> headMap, AnalysisContext context) {
-        log.info("读取表头：" + headMap);
+        log.info("读取表头：" + headMap + context);
     }
 
     //读取的每一行数据
     @Override
     public void invoke(Book book, AnalysisContext analysisContext) {
 
-       log.info("读取一行数据：" + book);
+       log.info("读取一行数据：" + book + analysisContext);
        cachedDataList.add(book);
        if(cachedDataList.size() >= BATCH_COUNT){
            //缓存满了就存一次数据库
            savaData(cachedDataList);
+           log.info("保存数据完毕：{}",cachedDataList);
            //存完初始化缓存
            cachedDataList = Lists.newArrayListWithExpectedSize(BATCH_COUNT);
        }
@@ -48,6 +49,7 @@ public class BookListener extends AnalysisEventListener<Book> {
     @Override
     public void doAfterAllAnalysed(AnalysisContext analysisContext) {
 
+        log.info("analysisContext内容：{}",analysisContext);
         log.info("所有数据读取完毕！");
 
     }
@@ -56,9 +58,9 @@ public class BookListener extends AnalysisEventListener<Book> {
         //缓存满了往数据库存数据
         boolean saveResult = bookService.insertData(cachedDataList);
         if(saveResult == true){
-            log.info("保存数据库成功");
+            log.info("保存数据库成功!");
         }else {
-            log.error("保存数据库异常");
+            log.error("保存数据库异常!");
         }
     }
 }

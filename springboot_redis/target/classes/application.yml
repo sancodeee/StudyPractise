@@ -1,14 +1,14 @@
-
+# 配置redis连接
 spring:
   redis:
-    host: localhost
+    host: 101.42.176.44
     port: 6379
     client-type: lettuce
 
   datasource:
-    url: jdbc:mysql://localhost:3306/test?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&serverTimezone=GMT%2B8
+    url: jdbc:mysql://101.42.176.44:3306/test?useUnicode=true&characterEncoding=utf8&characterSetResults=utf8&serverTimezone=GMT%2B8
     username: root
-    password: 123456
+    password: 169167866Spl.
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 

@@ -1,5 +1,6 @@
 package com.ws.testDemo;
 
+import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -8,6 +9,7 @@ import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.data.redis.core.ValueOperations;
 
 @SpringBootTest
+@Slf4j
 class SpringbootRedisTest {
 
     /**
@@ -17,6 +19,7 @@ class SpringbootRedisTest {
     @Autowired
     private RedisTemplate redisTemplate;
 
+    //缓存中设置key-value
     @Test
     void set(){
         ValueOperations opsForValue = redisTemplate.opsForValue();
@@ -24,12 +27,14 @@ class SpringbootRedisTest {
 
     }
 
+    //根据key获得value
     @Test
     void get(){
         ValueOperations opsForValue = redisTemplate.opsForValue();
-        System.out.println(opsForValue.get("name"));
+        log.info("根据key获取value：{}",opsForValue.get("name"));
     }
 
+    //哈希类型key-key-value
     @Test
     void putHash(){
         HashOperations opsForHash = redisTemplate.opsForHash();
@@ -41,6 +46,7 @@ class SpringbootRedisTest {
         opsForHash.put("person2","type","human");
     }
 
+//    根据key-key 获取 value
     @Test
     void getHash(){
         HashOperations opsForHash = redisTemplate.opsForHash();
@@ -58,5 +64,6 @@ class SpringbootRedisTest {
         System.out.println(o5);
         System.out.println(o6);
     }
+
 
 }

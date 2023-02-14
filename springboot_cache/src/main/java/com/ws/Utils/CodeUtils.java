@@ -28,7 +28,7 @@ public class CodeUtils {
     }
 
     //校验
-    //根据key值 从缓存里取值：缓存里有对应的key，则返回相应的值，没有对应的key，则在缓存中添加，并返回null
+    //根据key值 从缓存里取值：缓存里有对应的key，则返回相应的值，没有对应的key，则查询数据库之后在缓存中添加，并返回null
     @Cacheable(value = "cacheSpace" , key = "#telephoneNum")
     public String get(String telephoneNum){
         return null;

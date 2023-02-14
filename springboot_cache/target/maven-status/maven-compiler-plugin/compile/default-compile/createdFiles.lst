@@ -1,6 +1,0 @@
-com\ws\pojo\SIMCode.class
-com\ws\service\SimCodeService.class
-com\ws\controller\SIMCodeController.class
-com\ws\Utils\CodeUtils.class
-com\ws\service\Impl\SimCodeServiceImpl.class
-com\ws\SIMApplication.class

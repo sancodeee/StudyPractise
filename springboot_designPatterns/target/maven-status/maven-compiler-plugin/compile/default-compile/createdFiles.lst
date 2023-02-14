@@ -1,6 +1,0 @@
-com\ws\factoryPatterns\impl\Computer.class
-com\ws\factoryPatterns\impl\Phone.class
-com\ws\factoryPatterns\impl\Photo.class
-com\ws\factoryPatterns\Factory.class
-com\ws\factoryPatterns\FactoryTest.class
-com\ws\factoryPatterns\product.class

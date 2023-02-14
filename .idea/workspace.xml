@@ -4,132 +4,116 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d82d211c-b084-4b68-a67d-3ac5ac77d26e" name="Default Changelist" comment="更新">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/9/1947b8f57b7a8c8137a04e2ca5d0f64a35face30" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/f/2f18027d0d8152153af9ecf996e1d23c283c98c2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/3206bc8bc3b021c5f4ce89cb53dad5fba0537897" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/5/35ae981ac0b9e0739147694956e6fe34d3bc5807" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/9/393481d1f3d8c9a5344cf26699de90b1085c3abb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/9/39fb1db16f6ecc6348f40bfd58d6e1b7d59a0d4f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/f/3ff1460533cde43f674848a82ce69d560687d468" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/6/6677cefc022b5760980dce01b7eec03ae6e2288e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/9/797e093b38f07db80ba871020a09075e3a51e8b2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/0/8045c8ec7ffda83483036a55374ec5448cab453c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/1/81d2606b4fb382f011d9b42f0da631ca2386492e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/83b7c68abeee594d87a07adfd7d53a36018f14d5" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/83eca58e5eaee4229db515783ac5385d6bd852e1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/852ceb5c404d906fcb53d312670d91e9bdf35f1c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/9/89b9f402629391f43050b8d916f15c4e1ca45462" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/e/8e62b867d7e0de4714b512c3692af4a29be492f7" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97d3e791bef270621f571baa92abada000fe4bf4" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/b/9bcc5c73934635b5b329368ba072f7c46890be50" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/3/b376b4e7419b7a8e547a8c175a784220f6c83ec3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/2/d2b2d5ae7e1f7e1f4bdeeab859db8b0e449407dd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/7/d77c5e79b513918e6062362cd4f80b41da1f734f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/9/d9f49245715e6c801f8da043cfbec5b78f8ec615" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/d/f/dff04720e9bdfefec13ee4cc840216f3a0349299" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/6/f618819f5ba4356c43f0f7c7b0057e2367794331" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fcd55abcef3f23993294d735faf26215ea2dce1f" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnumDemo/target/EnumDemo-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnumDemo/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnumDemo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnumDemo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnumDemo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/EnumDemo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_cache/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_cache/springboot_cache.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_cache/src/main/java/com/ws/SIMApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_cache/src/main/java/com/ws/Utils/CodeUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_cache/src/main/java/com/ws/controller/SIMCodeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_cache/src/main/java/com/ws/pojo/SIMCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_cache/src/main/java/com/ws/service/Impl/SimCodeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_cache/src/main/java/com/ws/service/SimCodeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_cache/src/main/resources/config/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_cache/target/classes/com/ws/SIMApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_cache/target/classes/com/ws/Utils/CodeUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_cache/target/classes/com/ws/controller/SIMCodeController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_cache/target/classes/com/ws/pojo/SIMCode.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_cache/target/classes/com/ws/service/Impl/SimCodeServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_cache/target/classes/com/ws/service/SimCodeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_cache/target/classes/config/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_cache/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_cache/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_cache/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_cache/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_cache/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_cache/target/springboot_cache-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_crud/target/test-classes/com/ws/lambda/FunctionalInterface/Impl/MyFunctionalImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_crud/target/test-classes/com/ws/lambda/FunctionalInterface/Impl/MyFunctionalImpl5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_crud/target/test-classes/com/ws/lambda/FunctionalInterface/MyFunctional.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_crud/target/test-classes/com/ws/lambda/FunctionalInterface/MyFunctional2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_crud/target/test-classes/com/ws/lambda/FunctionalInterface/MyFunctional3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_crud/target/test-classes/com/ws/lambda/FunctionalInterface/MyFunctional4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_crud/target/test-classes/com/ws/lambda/FunctionalInterface/MyFunctional5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_crud/target/test-classes/com/ws/lambda/MyLambda$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_crud/target/test-classes/com/ws/lambda/MyLambda$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_crud/target/test-classes/com/ws/lambda/MyLambda$3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_crud/target/test-classes/com/ws/lambda/MyLambda$4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_crud/target/test-classes/com/ws/lambda/MyLambda$5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_crud/target/test-classes/com/ws/lambda/MyLambda$6.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_crud/target/test-classes/com/ws/lambda/MyLambda.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_designPatterns/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_designPatterns/springboot_designPatterns.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_designPatterns/src/main/java/com/ws/factoryPatterns/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_designPatterns/src/main/java/com/ws/factoryPatterns/FactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_designPatterns/src/main/java/com/ws/factoryPatterns/impl/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_designPatterns/src/main/java/com/ws/factoryPatterns/impl/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_designPatterns/src/main/java/com/ws/factoryPatterns/impl/Photo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_designPatterns/src/main/java/com/ws/factoryPatterns/product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_designPatterns/target/classes/com/ws/factoryPatterns/Factory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_designPatterns/target/classes/com/ws/factoryPatterns/FactoryTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_designPatterns/target/classes/com/ws/factoryPatterns/impl/Computer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_designPatterns/target/classes/com/ws/factoryPatterns/impl/Phone.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_designPatterns/target/classes/com/ws/factoryPatterns/impl/Photo.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_designPatterns/target/classes/com/ws/factoryPatterns/product.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_designPatterns/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_designPatterns/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_designPatterns/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_designPatterns/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_designPatterns/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_designPatterns/target/springboot_designPatterns-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_easyexcel/target/classes/com/ws/controller/ReadAndWriteController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_easyexcel/target/classes/com/ws/result/ENUM/ResponseCodes.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_es/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_es/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_es/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_es/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_es/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_es/target/springboot_es-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_mongodb/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_mongodb/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_mongodb/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_mongodb/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_mongodb/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_mongodb/target/springboot_mongodb-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_redis/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_redis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_redis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_redis/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_redis/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_redis/target/springboot_redis-1.0-SNAPSHOT.jar" afterDir="false" />
+    <list default="true" id="d82d211c-b084-4b68-a67d-3ac5ac77d26e" name="Default Changelist" comment="cache模块更新">
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/e/0eb8b2ff050dcbf2feb92bb265e719336a905800" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/3/13f5676c81e17324226656106137f510bc02b9aa" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/f/1f963860d1296f0e7801b9819b90f9f5d65021e2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/5/25623b1883f9729e42ff12b0cd58773517ba82b6" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/e/4e76b4cdb0362923f6f083561204bedc680519bc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/2/527de2c49007ac88905a17fa1942e14e4586e52f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/e/5e7c836c678f111e14e757d164485d6ee27cf345" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/f/5fabc86922d885a4a1841df5308dfe608456511f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/2/62ed491d20d1e6b57b6aad5471def2952bc061e5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/6/4/64d1bbcc47f8760cc52ce1e17e56cb4bcda3811f" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/1/718e100854c14ce0add062947680f640e913ba1a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4/742e75161134e3195c773ded81d5e625bdd0342b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/2/82d616cf63705c80d367f41702e6987a4b6dcfa5" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/2/92cd7e0555ea7cb942cd88d2866dcca907af6c90" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/3/a33e935d8c8cdbec019e629ffeb6f3c909cc3983" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/5/b54587c0d96ef32f9586578d3d46c84bb5a51bf2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/0/c0f30ab690a8b548d127f68cb38f943a2eb19037" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ec037c7592dd972b1978f53cf7d34f05cd3fdac7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/mappers/xml/BookMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_crud/src/test/java/com/ws/lambda/stream/streamDemo01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_easyexcel/src/main/java/com/ws/mapper/xml/BookMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_quartz/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_quartz/springboot_quartz.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/5/75fb873b11bcabf1633b7cba60851394bfe6432f" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/7/171aa1dcadf01831f222cd14f5bad966e519d9d1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/e/1ecb4f69ec0acf53073a18e3e166f187bbec1c0f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/e/2e502f9706cc151b192e02ca09eecc79c1e6d774" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/3206bc8bc3b021c5f4ce89cb53dad5fba0537897" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/3/2/3206bc8bc3b021c5f4ce89cb53dad5fba0537897" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/1/81d2606b4fb382f011d9b42f0da631ca2386492e" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/1/81d2606b4fb382f011d9b42f0da631ca2386492e" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/83b7c68abeee594d87a07adfd7d53a36018f14d5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/3/83b7c68abeee594d87a07adfd7d53a36018f14d5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/852ceb5c404d906fcb53d312670d91e9bdf35f1c" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/8/5/852ceb5c404d906fcb53d312670d91e9bdf35f1c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97d3e791bef270621f571baa92abada000fe4bf4" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/7/97d3e791bef270621f571baa92abada000fe4bf4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/b/9bcc5c73934635b5b329368ba072f7c46890be50" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/b/9bcc5c73934635b5b329368ba072f7c46890be50" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a837a3b12b66e7fcc814422cc3590ddab351266b" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/8/a837a3b12b66e7fcc814422cc3590ddab351266b" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/9/b976a3e633c99e24fbdb090dedb11d542743b7f3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f4f20284c1515a93c6a67eb26ba5b47d98fab791" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/4/f4f20284c1515a93c6a67eb26ba5b47d98fab791" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/EnumDemo/target/EnumDemo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/EnumDemo/target/EnumDemo-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/CRUDApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/CRUDApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_crud/src/test/java/com/ws/lambda/MyLambda.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/src/test/java/com/ws/lambda/MyLambda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_crud/target/classes/com/ws/CRUDApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/target/classes/com/ws/CRUDApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_crud/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_crud/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_crud/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_crud/target/springboot_crud-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/target/springboot_crud-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_crud/target/springboot_crud-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/target/springboot_crud-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_easyexcel/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_easyexcel/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_easyexcel/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_easyexcel/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_easyexcel/target/springboot_easyexcel-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_easyexcel/target/springboot_easyexcel-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_redis/target/classes/com/ws/RedisApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_cache/src/main/java/com/ws/Utils/CodeUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_cache/src/main/java/com/ws/Utils/CodeUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_cache/src/main/java/com/ws/pojo/SIMCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_cache/src/main/java/com/ws/pojo/SIMCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_cache/src/main/java/com/ws/service/Impl/SimCodeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_cache/src/main/java/com/ws/service/Impl/SimCodeServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_cache/src/main/resources/config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_cache/src/main/resources/config/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_cache/target/classes/com/ws/pojo/SIMCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_cache/target/classes/com/ws/pojo/SIMCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_cache/target/classes/com/ws/service/Impl/SimCodeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_cache/target/classes/com/ws/service/Impl/SimCodeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_cache/target/classes/config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_cache/target/classes/config/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_cache/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_cache/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_cache/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_cache/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_cache/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_cache/target/springboot_cache-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/controller/result/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/controller/result/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/mappers/BookMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/mappers/BookMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/service/IBookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/service/IBookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/service/impl/IBookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/service/impl/IBookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/service/impl/StandardBookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/service/impl/StandardBookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_crud/target/classes/com/ws/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/target/classes/com/ws/controller/BookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_crud/target/classes/com/ws/controller/result/Result.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/target/classes/com/ws/controller/result/Result.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_crud/target/classes/com/ws/mappers/BookMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/target/classes/com/ws/mappers/BookMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_crud/target/classes/com/ws/service/IBookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/target/classes/com/ws/service/IBookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_crud/target/classes/com/ws/service/impl/IBookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/target/classes/com/ws/service/impl/IBookServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_crud/target/classes/com/ws/service/impl/StandardBookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/target/classes/com/ws/service/impl/StandardBookServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_crud/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_crud/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_crud/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_crud/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_crud/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_crud/target/springboot_crud-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_crud/target/springboot_crud-1.0-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_designPatterns/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_designPatterns/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_designPatterns/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_designPatterns/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_designPatterns/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_designPatterns/target/springboot_designPatterns-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_easyexcel/src/main/java/com/ws/listener/BookListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_easyexcel/src/main/java/com/ws/listener/BookListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_easyexcel/src/main/java/com/ws/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_easyexcel/src/main/java/com/ws/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_easyexcel/target/classes/com/ws/listener/BookListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_easyexcel/target/classes/com/ws/listener/BookListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_easyexcel/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_easyexcel/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_easyexcel/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_easyexcel/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_easyexcel/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_easyexcel/target/springboot_easyexcel-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_es/src/test/java/com/ws/mapperTest/ESApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_es/src/test/java/com/ws/mapperTest/ESApplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_es/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_es/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_es/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_es/target/springboot_es-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_es/target/test-classes/com/ws/mapperTest/ESApplicationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_es/target/test-classes/com/ws/mapperTest/ESApplicationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_mongodb/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_mongodb/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_mongodb/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_mongodb/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_mongodb/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_mongodb/target/springboot_mongodb-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_redis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_redis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_redis/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_redis/src/test/java/com/ws/testDemo/SpringbootRedisTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_redis/src/test/java/com/ws/testDemo/SpringbootRedisTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_redis/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_redis/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_redis/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_redis/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_redis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_redis/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_redis/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_redis/target/springboot_redis-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_redis/target/test-classes/com/ws/testDemo/SpringbootRedisTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_redis/target/test-classes/com/ws/testDemo/SpringbootRedisTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,6 +166,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.6.3\conf\settings.xml" />
         <option name="workOffline" value="true" />
       </MavenGeneralSettings>
     </option>
@@ -192,7 +178,6 @@
     </option>
   </component>
   <component name="MavenRunner">
-    <option name="delegateBuildToMaven" value="true" />
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="2IUxY2clND8eENL9Fp4FRZ4rIiP" />
@@ -216,7 +201,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-cloud" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Blog" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -227,7 +212,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.14257812" />
     <property name="project.structure.side.proportion" value="0.1508772" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -237,6 +222,7 @@
       <recent name="D:\workspace\StudyPractise\springboot_crud\src\main\resources\config" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\StudyPractise\springboot_crud\src\main\java\com\ws\mappers\xml" />
       <recent name="D:\workspace\StudyPractise\springboot_cache\src\main\resources\config" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -259,27 +245,16 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SIMApplication">
-    <configuration name="CodeUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ws.Utils.CodeUtils" />
-      <module name="springboot_cache" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ws.Utils.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.CRUDApplication">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -300,33 +275,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot_designPatterns" />
+    <configuration name="SpringbootRedisTest2.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_redis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ws.factoryPatterns.*" />
+          <option name="PATTERN" value="com.ws.testDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ws.factoryPatterns" />
-      <option name="MAIN_CLASS_NAME" value="com.ws.factoryPatterns.FactoryTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="com.ws.testDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.ws.testDemo.SpringbootRedisTest2" />
+      <option name="METHOD_NAME" value="get" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyLambda.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot_crud" />
+    <configuration name="SpringbootRedisTest.get" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_redis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ws.lambda.*" />
+          <option name="PATTERN" value="com.ws.testDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ws.lambda" />
-      <option name="MAIN_CLASS_NAME" value="com.ws.lambda.MyLambda" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="com.ws.testDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.ws.testDemo.SpringbootRedisTest" />
+      <option name="METHOD_NAME" value="get" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringbootRedisTest.set" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ws.testDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ws.testDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.ws.testDemo.SpringbootRedisTest" />
+      <option name="METHOD_NAME" value="set" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -353,20 +344,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CodeUtils" />
-      <item itemvalue="JUnit.MyLambda.test" />
-      <item itemvalue="JUnit.FactoryTest.test1" />
       <item itemvalue="JUnit.CodeUtils.test" />
+      <item itemvalue="JUnit.SpringbootRedisTest2.get" />
+      <item itemvalue="JUnit.SpringbootRedisTest.set" />
+      <item itemvalue="JUnit.SpringbootRedisTest.get" />
       <item itemvalue="Spring Boot.CRUDApplication" />
       <item itemvalue="Spring Boot.SIMApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpringbootRedisTest.get" />
+        <item itemvalue="JUnit.SpringbootRedisTest.set" />
+        <item itemvalue="JUnit.SpringbootRedisTest2.get" />
         <item itemvalue="Spring Boot.SIMApplication" />
         <item itemvalue="JUnit.CodeUtils.test" />
-        <item itemvalue="Application.CodeUtils" />
-        <item itemvalue="JUnit.FactoryTest.test1" />
-        <item itemvalue="JUnit.MyLambda.test" />
       </list>
     </recent_temporary>
   </component>
@@ -414,7 +405,23 @@
       <workItem from="1673511262708" duration="1034000" />
       <workItem from="1673580301862" duration="20489000" />
       <workItem from="1673921432179" duration="4551000" />
-      <workItem from="1673937396895" duration="17695000" />
+      <workItem from="1673937396895" duration="27890000" />
+      <workItem from="1674887196689" duration="27874000" />
+      <workItem from="1675218389235" duration="6505000" />
+      <workItem from="1675323805132" duration="825000" />
+      <workItem from="1675406872910" duration="2816000" />
+      <workItem from="1675667279046" duration="300000" />
+      <workItem from="1675736925382" duration="9518000" />
+      <workItem from="1675753821198" duration="188000" />
+      <workItem from="1675754083221" duration="1996000" />
+      <workItem from="1675761099651" duration="276000" />
+      <workItem from="1675761385788" duration="2000" />
+      <workItem from="1675761398519" duration="6000" />
+      <workItem from="1675762464507" duration="8938000" />
+      <workItem from="1675828219854" duration="3355000" />
+      <workItem from="1675834798755" duration="1725000" />
+      <workItem from="1676018151562" duration="3272000" />
+      <workItem from="1676345003846" duration="3420000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1672018459539</created>
@@ -465,7 +472,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673511355021</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="cache模块更新">
+      <created>1674119717237</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1674119717237</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -486,7 +500,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="更新" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新" />
+    <MESSAGE value="cache模块更新" />
+    <option name="LAST_COMMIT_MESSAGE" value="cache模块更新" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

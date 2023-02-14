@@ -8,4 +8,6 @@ import java.util.List;
 
 public interface BookService extends IService<Book> {
     boolean insertData(List<Book> list);
+
+    //
 }

@@ -18,6 +18,7 @@
         <module>springboot_easyexcel</module>
         <module>springboot_designPatterns</module>
         <module>springboot_cache</module>
+        <module>springboot_quartz</module>
 
     </modules>
 

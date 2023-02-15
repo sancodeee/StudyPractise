@@ -1,3 +1,6 @@
+server:
+  port: 8081
+
 spring:
 #  配置数据源，连接数据库
   datasource:
@@ -20,15 +23,17 @@ spring:
     host: smtp.qq.com #配置是smtp服务器地址
     port: 587 #smtp服务器端口
     username: 1376474892@qq.com #配置邮箱用户名
-    password: zpnxatcbpxerjhjf #配置申请到的授权码
+    password: ofrbudznefwoicjg #配置申请到的授权码
     default-encoding: UTF-8 #配置邮件编码
     properties:
       mail:
         smtp:
           socketFactoryClass: javax.net.ssl.SSLSocketFactory #配饰ssl加密工厂
         debug: true
-    from: 1376474892@qq.com #发送方邮件，配在yml中方便更改
 
+email:
+  from: 1376474892@qq.com #发送方邮箱地址
+  to: 2503331368@qq.com #接收方邮箱地址
 
 mybatis-plus:
   global-config:

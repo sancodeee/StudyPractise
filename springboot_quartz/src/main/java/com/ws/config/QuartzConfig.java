@@ -9,7 +9,6 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class QuartzConfig {
 
-
 //    工作明细：需要绑定指定的工作job
     @Bean
     public JobDetail firstJobDetail(){
@@ -27,14 +26,18 @@ public class QuartzConfig {
     @Bean
     public Trigger firstTrigger(){
         //用于规定何时触发该触发器 执行的周期 执行的频度 执行的时间点
-        CronScheduleBuilder scheduleBuilder = CronScheduleBuilder.cronSchedule("0/5 * * * * ?");
+        //每天的5：20分和17：20分执行定时任务1
+        CronScheduleBuilder scheduleBuilder = CronScheduleBuilder.cronSchedule("0 20 5,17 * * ?");
         //绑定工作明细JobDetail
         return TriggerBuilder.newTrigger().forJob(firstJobDetail()).withSchedule(scheduleBuilder).build();
     }
 
     @Bean
     public Trigger secondTrigger(){
-        return TriggerBuilder.newTrigger().forJob(secondJobDetail()).withSchedule(firstTrigger().getScheduleBuilder()).build();
+        //每天的13：14分执行定时任务2
+        CronScheduleBuilder cronScheduleBuilder = CronScheduleBuilder.cronSchedule("0 14 13 * * ?");
+        return TriggerBuilder.newTrigger().forJob(secondJobDetail()).withSchedule(cronScheduleBuilder).build();
+
     }
 
 

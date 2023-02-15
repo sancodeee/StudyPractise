@@ -6,7 +6,7 @@ import java.util.TimerTask;
 public class TimeTask {
 
     public static void main(String[] args) {
-
+        //spring自带定时任务API测试
         Timer timer = new Timer();
         TimerTask task = new TimerTask() {
             @Override

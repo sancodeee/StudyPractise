@@ -29,6 +29,7 @@
       <module name="springboot_easyexcel" options="-parameters" />
       <module name="springboot_es" options="-parameters" />
       <module name="springboot_mongodb" options="-parameters" />
+      <module name="springboot_quartz" options="-parameters" />
       <module name="springboot_redis" options="-parameters" />
     </option>
   </component>

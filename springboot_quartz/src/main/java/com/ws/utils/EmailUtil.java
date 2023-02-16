@@ -80,6 +80,7 @@ public class EmailUtil {
         // 发送邮件
         mailSender.send(mimeMessage);
     }
+
     /**
      * 发送带附件的邮件信息
      *

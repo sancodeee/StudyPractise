@@ -1,0 +1,14 @@
+
+s
+java:S14883"]Immediately return this expression instead of assigning it to the temporary variable "books".(Ó—Š•
+A
+java:S11687"+Return an empty collection instead of null.(¥¹ï
+W
+java:S1854D"<Remove this useless assignment to local variable "bookPage".(İ†¤üÿÿÿÿ
+Q
+java:S1854C"<Remove this useless assignment to local variable "bookList".(ç¤®J
+V	java:S125>"<This block of commented-out lines of code should be removed.(Ä›ó³ÿÿÿÿÿ
+B
+java:S1481C"-Remove this unused "bookList" local variable.(ç¤®J
+H
+java:S1481D"-Remove this unused "bookPage" local variable.(İ†¤üÿÿÿÿ

@@ -33,7 +33,8 @@ spring:
 
 email:
   from: 1376474892@qq.com #发送方邮箱地址
-  to: 2503331368@qq.com #接收方邮箱地址
+#  to: 2503331368@qq.com #接收方邮箱地址
+  to: 1376474892@qq.com
 
 mybatis-plus:
   global-config:

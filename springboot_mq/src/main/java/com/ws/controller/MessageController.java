@@ -1,0 +1,31 @@
+package com.ws.controller;
+
+import com.ws.service.ProcessMessage;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/message")
+public class MessageController {
+
+    @Autowired
+    private ProcessMessage processMessage;
+
+    @GetMapping
+    public String sendMessage(@RequestParam(name = "id" , required = true ,defaultValue = "1") String id){
+        processMessage.sendMessage(id);
+        return id;
+    }
+
+    @GetMapping
+    public String handleMessage(){
+        String id = processMessage.handleMessage();
+        return id;
+    }
+
+
+
+}

@@ -19,6 +19,7 @@
         <module>springboot_designPatterns</module>
         <module>springboot_cache</module>
         <module>springboot_quartz</module>
+        <module>springboot_mq</module>
 
     </modules>
 

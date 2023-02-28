@@ -4,6 +4,7 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.ws.controller.result.Result;
 import com.ws.pojo.Book;
 import com.ws.service.IBookService;
+import com.ws.vo.BookVo;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
@@ -29,7 +30,7 @@ public class BookController {
     @GetMapping("/getById/{id}")
     public Result<Book> getById(@PathVariable Integer id) throws Exception {
         log.info("查询成功！");
-        Book book = iBookService.getById(id);
+        Book book = iBookService.getBookById(id);
         return Result.queryOk(book);
     }
 
@@ -51,9 +52,9 @@ public class BookController {
 
     //分页查询全部
     @GetMapping("/getPage/{currentPage}/{pageSize}")
-    public Result<IPage<Book>> getPage(@PathVariable int currentPage, @PathVariable int pageSize){
+    public Result<IPage<BookVo>> getPage(@PathVariable int currentPage, @PathVariable int pageSize){
         log.info("查询成功！");
-        return Result.queryOk(iBookService.getPage(currentPage, pageSize));
+        return Result.queryOk(iBookService.getPage(currentPage,pageSize));
     }
 
     //添加

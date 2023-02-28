@@ -14,16 +14,15 @@ public class MessageController {
     @Autowired
     private ProcessMessage processMessage;
 
-    @GetMapping
+    @GetMapping("/sendMessage")
     public String sendMessage(@RequestParam(name = "id" , required = true ,defaultValue = "1") String id){
         processMessage.sendMessage(id);
         return id;
     }
 
-    @GetMapping
+    @GetMapping("/handleMessage")
     public String handleMessage(){
-        String id = processMessage.handleMessage();
-        return id;
+        return processMessage.handleMessage();
     }
 
 

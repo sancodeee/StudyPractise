@@ -33,10 +33,10 @@ public class BookControllerCom extends LogFactory {
 
     //分页查询
     @GetMapping("/getPage/{currentPage}/{pageSize}")
-    public IPage<Book> getPage(@PathVariable int currentPage,@PathVariable int pageSize){
-        IPage<Book> page = iBookService.getPage(currentPage, pageSize);
-        return page;
-    }
+//    public IPage<Book> getPage(@PathVariable int currentPage,@PathVariable int pageSize){
+//        IPage<Book> page = iBookService.getPage(currentPage, pageSize);
+//        return page;
+//    }
 
     //添加
     @PostMapping("/save")

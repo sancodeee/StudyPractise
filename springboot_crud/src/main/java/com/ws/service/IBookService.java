@@ -3,6 +3,7 @@ package com.ws.service;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.ws.pojo.Book;
+import com.ws.vo.BookVo;
 
 import java.util.List;
 
@@ -12,10 +13,13 @@ public interface IBookService extends IService<Book> {
     Boolean saveBook(Book book);
 
     //分页查询全部
-    IPage<Book> getPage(int currentPage,int pageSize);
+    IPage<BookVo> getPage(int currentPage, int pageSize);
 
     //根据书名查询书籍
     List<Book> getBookByName(String bookName);
+
+    //根据id查询书籍
+    Book getBookById(Integer id);
 
     //根据书名分页查询
     IPage<Book> getBookByNamePage(String bookName , Integer pageNum , Integer pageSize);

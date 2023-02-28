@@ -9,12 +9,14 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.ws.mappers.BookMapper;
 import com.ws.pojo.Book;
 import com.ws.service.IBookService;
+import com.ws.vo.BookVo;
 import lombok.experimental.Accessors;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.annotation.Resource;
+import java.util.ArrayList;
 import java.util.List;
 
 @Accessors(chain = true)
@@ -33,13 +35,27 @@ public class IBookServiceImpl extends ServiceImpl<BookMapper, Book> implements I
     }
 
 
-
     //分页查询书籍
     @Override
-    public IPage<Book> getPage(int currentPage, int pageSize) {
+    public IPage<BookVo> getPage(int currentPage, int pageSize) {
+        LambdaQueryWrapper<Book> wrapper = new LambdaQueryWrapper<>();
+        wrapper.between(Book::getId,10,50).like(Book::getDescription,"本书").orderByDesc(Book::getId);
         Page<Book> page = new Page<>(currentPage,pageSize);
-        bookMapper.selectPage(page,null);
-        return page;
+        IPage<Book> bookPage = bookMapper.selectPage(page, wrapper);
+        List<Book> bookList = bookPage.getRecords();
+        ArrayList<BookVo> bookVoList = new ArrayList<>();
+        for(Book book : bookList){
+            BookVo bookVo = new BookVo();
+            BeanUtils.copyProperties(book,bookVo);
+            bookVoList.add(bookVo);
+        }
+        IPage<BookVo> bookVoPage = new Page<>();
+        bookVoPage.setRecords(bookVoList)
+                .setCurrent(bookPage.getCurrent())
+                .setTotal(bookPage.getTotal())
+                .setSize(bookPage.getSize())
+                .setPages(bookPage.getPages());
+        return bookVoPage;
     }
 
     //根据书名查询书籍
@@ -54,6 +70,12 @@ public class IBookServiceImpl extends ServiceImpl<BookMapper, Book> implements I
             log.info("书名不能为空！");
             return null;
         }
+    }
+
+    //根据id查询书籍
+    @Override
+    public Book getBookById(Integer id) {
+        return bookMapper.selectById(id);
     }
 
     //根据书名分页查询
@@ -88,7 +110,7 @@ public class IBookServiceImpl extends ServiceImpl<BookMapper, Book> implements I
         }
     }
 
-
+    //根据id删除书籍
     @Override
     public Boolean deleteBookById(Integer id) {
         if (ObjectUtils.isNotNull(id) && ObjectUtils.isNotEmpty(id)){

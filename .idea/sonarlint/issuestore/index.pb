@@ -31,8 +31,6 @@ Nspringboot_designPatterns/src/main/java/com/ws/factoryPatterns/impl/Photo.java
 Qspringboot_designPatterns/src/main/java/com/ws/factoryPatterns/impl/Computer.java,6\2\62ed491d20d1e6b57b6aad5471def2952bc061e5
 
 Ospringboot_designPatterns/src/main/java/com/ws/factoryPatterns/FactoryTest.java,7\1\718e100854c14ce0add062947680f640e913ba1a
-{
-Kspringboot_designPatterns/src/main/java/com/ws/factoryPatterns/Factory.java,e\c\ec037c7592dd972b1978f53cf7d34f05cd3fdac7
 ~
 Nspringboot_designPatterns/src/main/java/com/ws/factoryPatterns/impl/Phone.java,a\3\a33e935d8c8cdbec019e629ffeb6f3c909cc3983
 j
@@ -147,3 +145,5 @@ I
 springboot_quartz/pom.xml,f\6\f671f01710652388fbd5591cd58d6e2a10a2faf1
 m
 =springboot_quartz/src/main/java/com/ws/schedule/TimeTask.java,c\a\caef9ae9b23d079d3990357dc5c82db97597afdc
+7
+pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec

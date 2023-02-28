@@ -14,7 +14,7 @@ public class OrderController {
     @Autowired
     private OrderService orderService;
 
-    @GetMapping
+    @GetMapping("/handleOrder")
     public String handleOrder(@RequestParam(name = "id" ,required = true ,defaultValue = "1") String id){
 
         orderService.order(id);

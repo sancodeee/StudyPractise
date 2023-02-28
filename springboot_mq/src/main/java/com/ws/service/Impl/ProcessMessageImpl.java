@@ -1,7 +1,6 @@
 package com.ws.service.Impl;
 
 import com.ws.service.ProcessMessage;
-import org.checkerframework.checker.units.qual.A;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jms.core.JmsMessagingTemplate;
 import org.springframework.stereotype.Service;

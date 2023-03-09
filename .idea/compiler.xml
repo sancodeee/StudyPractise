@@ -13,6 +13,7 @@
         <module name="springboot_es" />
         <module name="springboot_quartz" />
         <module name="springboot_mongodb" />
+        <module name="springboot_crud02" />
         <module name="springboot_cache" />
         <module name="springboot_crud" />
         <module name="springboot_redis" />
@@ -26,6 +27,7 @@
       <module name="EnumDemo" options="-parameters" />
       <module name="springboot_cache" options="-parameters" />
       <module name="springboot_crud" options="-parameters" />
+      <module name="springboot_crud02" options="-parameters" />
       <module name="springboot_designPatterns" options="-parameters" />
       <module name="springboot_easyexcel" options="-parameters" />
       <module name="springboot_es" options="-parameters" />

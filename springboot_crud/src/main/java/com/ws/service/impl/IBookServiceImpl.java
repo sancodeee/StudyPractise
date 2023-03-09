@@ -6,7 +6,7 @@ import com.baomidou.mybatisplus.core.toolkit.ObjectUtils;
 import com.baomidou.mybatisplus.core.toolkit.StringUtils;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.ws.mappers.BookMapper;
+import com.ws.mapper.BookMapper;
 import com.ws.pojo.Book;
 import com.ws.service.IBookService;
 import com.ws.vo.BookVo;

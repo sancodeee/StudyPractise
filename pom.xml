@@ -20,6 +20,7 @@
         <module>springboot_cache</module>
         <module>springboot_quartz</module>
         <module>springboot_mq</module>
+        <module>springboot_crud02</module>
 
     </modules>
 

@@ -15,8 +15,4 @@ mybatis-plus:
       id-type: auto
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-
-servers:
-  ipAddress: 192.168.0.1
-  port: 8888
-  timeout: -1
+  mapper-locations: classpath*:**/*Mapper.xml

@@ -1,7 +1,7 @@
 package com.ws.config;
 
-import com.ws.quartz.MyQuartz;
-import com.ws.quartz.MyQuartz2;
+import com.ws.job.MyJob;
+import com.ws.job.MyJob2;
 import org.quartz.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -14,12 +14,12 @@ public class QuartzConfig {
     public JobDetail firstJobDetail(){
         //storeDurably()方法用于设定当此定时任务没启动时是否要做持久化操作到数据库
         //绑定工作job：MyQuartz类为定义好的工作内容类
-        return JobBuilder.newJob(MyQuartz.class).storeDurably().build();
+        return JobBuilder.newJob(MyJob.class).storeDurably().build();
     }
 
     @Bean
     public JobDetail secondJobDetail(){
-        return JobBuilder.newJob(MyQuartz2.class).storeDurably().build();
+        return JobBuilder.newJob(MyJob2.class).storeDurably().build();
     }
 
 //    触发器：需要绑定工作明细JobDetail

@@ -1,8 +1,11 @@
 package com.ws.schedule;
 
+import lombok.extern.slf4j.Slf4j;
+
 import java.util.Timer;
 import java.util.TimerTask;
 
+@Slf4j
 public class TimeTask {
 
     public static void main(String[] args) {
@@ -15,6 +18,7 @@ public class TimeTask {
             }
         };
         timer.schedule(task,2000,1000);
+
     }
 
 }

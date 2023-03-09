@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ws.mapper.BookMapper">
+
+<!--   实体类和数据表做映射：解决实体类中 属性名 和表中 列名 不一致的问题  -->
+    <resultMap id="Book" type="com.ws.pojo.Book">
+        <result column="id" property="id" />
+        <result column="name" property="name"/>
+        <result column="description" property="description"/>
+        <result column="type" property="type" />
+    </resultMap>
+
+<!--    自定义重复sql语句 ，可通过id重复使用 -->
+    <sql id="bookVo">
+        id,
+        name,
+        description,
+        type
+    </sql>
+    
+    <select id="getByBookName" resultMap="Book">
+        select <include refid="bookVo" /> from book where name = #{bookName}
+    </select>
+
+
+
+</mapper>

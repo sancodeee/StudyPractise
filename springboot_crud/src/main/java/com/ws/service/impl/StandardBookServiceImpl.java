@@ -1,6 +1,6 @@
 package com.ws.service.impl;
 
-import com.ws.mappers.BookMapper;
+import com.ws.mapper.BookMapper;
 import com.ws.pojo.Book;
 import com.ws.service.StandardBookService;
 import org.springframework.beans.factory.annotation.Autowired;

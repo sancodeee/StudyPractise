@@ -23,49 +23,57 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d82d211c-b084-4b68-a67d-3ac5ac77d26e" name="Default Changelist" comment="activemq更新">
-      <change afterPath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/vo/BookVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_crud/src/test/java/com/ws/judge/judgeEmpty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_crud/src/test/java/com/ws/sendMsg/SendMsg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_designPatterns/src/main/java/com/ws/AbstractFactoryPattern/AbstractFactoryTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_designPatterns/src/main/java/com/ws/AbstractFactoryPattern/factory/impl/huaweiProductFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_designPatterns/src/main/java/com/ws/AbstractFactoryPattern/factory/impl/xiaomiProductFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_designPatterns/src/main/java/com/ws/AbstractFactoryPattern/factory/productFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_designPatterns/src/main/java/com/ws/AbstractFactoryPattern/impl/huaweiCamera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_designPatterns/src/main/java/com/ws/AbstractFactoryPattern/impl/huaweiComputer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_designPatterns/src/main/java/com/ws/AbstractFactoryPattern/impl/huaweiPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_designPatterns/src/main/java/com/ws/AbstractFactoryPattern/impl/xiaomiCamera.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_designPatterns/src/main/java/com/ws/AbstractFactoryPattern/impl/xiaomiComputer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_designPatterns/src/main/java/com/ws/AbstractFactoryPattern/impl/xiaomiPhone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_designPatterns/src/main/java/com/ws/AbstractFactoryPattern/product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/c/ec037c7592dd972b1978f53cf7d34f05cd3fdac7" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_crud02/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_crud02/springboot_crud02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/CRUD02Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/config/MyBatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/config/SwaggerPrintConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/entity/Author.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/entity/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/mapper/AuthorMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/mapper/BookCompleteWithAutMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/mapper/BookMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/service/BookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/vo/BookCompleteVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_crud02/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_crud02/src/main/resources/mapper/AuthorMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_crud02/src/main/resources/mapper/BookCompleteWithAutMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_crud02/src/main/resources/mapper/BookMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/controller/BookControllerCom.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/controller/BookControllerCom.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/service/IBookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/service/IBookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/mappers/BookMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/mapper/BookMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/mappers/xml/BookMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/mapper/xml/BookMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/pojo/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/pojo/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/service/impl/IBookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/service/impl/IBookServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_crud/target/classes/com/ws/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/target/classes/com/ws/controller/BookController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_crud/target/classes/com/ws/controller/BookControllerCom.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/target/classes/com/ws/controller/BookControllerCom.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_crud/target/classes/com/ws/service/IBookService.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/target/classes/com/ws/service/IBookService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/service/impl/StandardBookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/service/impl/StandardBookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_crud/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/src/main/resources/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_crud/src/test/java/com/ws/mappers/BookMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/src/test/java/com/ws/mapper/BookMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_crud/target/classes/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/target/classes/application-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_crud/target/classes/com/ws/mappers/BookMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_crud/target/classes/com/ws/pojo/Book.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/target/classes/com/ws/pojo/Book.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot_crud/target/classes/com/ws/service/impl/IBookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/target/classes/com/ws/service/impl/IBookServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_designPatterns/src/main/java/com/ws/factoryPatterns/Factory.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_designPatterns/src/main/java/com/ws/FactoryPatterns/factory/Factory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_designPatterns/src/main/java/com/ws/factoryPatterns/FactoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_designPatterns/src/main/java/com/ws/FactoryPatterns/FactoryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_designPatterns/src/main/java/com/ws/factoryPatterns/impl/Computer.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_designPatterns/src/main/java/com/ws/FactoryPatterns/impl/Computer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_designPatterns/src/main/java/com/ws/factoryPatterns/impl/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_designPatterns/src/main/java/com/ws/FactoryPatterns/impl/Phone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_designPatterns/src/main/java/com/ws/factoryPatterns/impl/Photo.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_designPatterns/src/main/java/com/ws/FactoryPatterns/impl/Photo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_designPatterns/src/main/java/com/ws/factoryPatterns/product.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_designPatterns/src/main/java/com/ws/FactoryPatterns/product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_designPatterns/target/classes/com/ws/factoryPatterns/Factory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_designPatterns/target/classes/com/ws/factoryPatterns/FactoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_designPatterns/target/classes/com/ws/factoryPatterns/FactoryTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_designPatterns/target/classes/com/ws/factoryPatterns/impl/Computer.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_designPatterns/target/classes/com/ws/factoryPatterns/impl/Computer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_designPatterns/target/classes/com/ws/factoryPatterns/impl/Phone.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_designPatterns/target/classes/com/ws/factoryPatterns/impl/Phone.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_designPatterns/target/classes/com/ws/factoryPatterns/impl/Photo.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_designPatterns/target/classes/com/ws/factoryPatterns/impl/Photo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_designPatterns/target/classes/com/ws/factoryPatterns/product.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_designPatterns/target/classes/com/ws/factoryPatterns/product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_mq/src/main/java/com/ws/ActiveMQApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_mq/src/main/java/com/ws/ActiveMQApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_mq/src/main/java/com/ws/controller/MessageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_mq/src/main/java/com/ws/controller/MessageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_mq/src/main/java/com/ws/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_mq/src/main/java/com/ws/controller/OrderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_crud/target/classes/com/ws/service/impl/StandardBookServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/target/classes/com/ws/service/impl/StandardBookServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_crud/target/test-classes/com/ws/mappers/BookMapperTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_es/src/main/java/com/ws/mappers/BookMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_es/src/main/java/com/ws/mapper/BookMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_es/src/main/java/com/ws/mappers/xml/BookMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_es/src/main/java/com/ws/mapper/xml/BookMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_es/src/test/java/com/ws/mapperTest/ESApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_es/src/test/java/com/ws/mapperTest/ESApplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_es/target/classes/com/ws/mappers/BookMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_es/target/test-classes/com/ws/mapperTest/ESApplicationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_es/target/test-classes/com/ws/mapperTest/ESApplicationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_mq/src/main/java/com/ws/service/Impl/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_mq/src/main/java/com/ws/service/Impl/OrderServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot_mq/src/main/java/com/ws/service/Impl/ProcessMessageImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_mq/src/main/java/com/ws/service/Impl/ProcessMessageImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot_mq/src/main/resources/application" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_mq/src/main/resources/application" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot_mq/target/classes/application" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_mq/target/classes/application" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_quartz/src/main/java/com/ws/config/QuartzConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_quartz/src/main/java/com/ws/config/QuartzConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_quartz/src/main/java/com/ws/quartz/MyQuartz.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_quartz/src/main/java/com/ws/job/MyJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_quartz/src/main/java/com/ws/quartz/MyQuartz2.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_quartz/src/main/java/com/ws/job/MyJob2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_quartz/src/main/java/com/ws/schedule/TimeTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_quartz/src/main/java/com/ws/schedule/TimeTask.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +86,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -131,6 +140,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -147,7 +157,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Blog" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot_crud02/src/main/resources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -165,12 +175,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\StudyPractise\springboot_crud02\src\main\resources" />
       <recent name="D:\workspace\StudyPractise\springboot_crud\src\main\resources\config" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\StudyPractise\springboot_crud02\src\main\resources" />
+      <recent name="D:\workspace\StudyPractise\springboot_crud02\src\main\resources\config" />
+      <recent name="D:\workspace\StudyPractise\springboot_crud02\src\main\java\com\ws\mappers\xml" />
       <recent name="D:\workspace\StudyPractise\springboot_quartz\src\main\resources\config" />
       <recent name="D:\workspace\StudyPractise\springboot_crud\src\main\java\com\ws\mappers\xml" />
-      <recent name="D:\workspace\StudyPractise\springboot_cache\src\main\resources\config" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com" />
@@ -192,7 +205,18 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CRUDApplication">
+  <component name="RunManager" selected="Spring Boot.CRUD02Application">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AbstractFactoryTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot_designPatterns" />
       <extension name="coverage">
@@ -209,17 +233,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot_designPatterns" />
+    <configuration name="BookServiceMBTest.queryBook (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_crud" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ws.FactoryPatterns.*" />
+          <option name="PATTERN" value="com.ws.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ws.FactoryPatterns" />
-      <option name="MAIN_CLASS_NAME" value="com.ws.FactoryPatterns.FactoryTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="PACKAGE_NAME" value="com.ws.service" />
+      <option name="MAIN_CLASS_NAME" value="com.ws.service.BookServiceMBTest" />
+      <option name="METHOD_NAME" value="queryBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BookServiceMBTest.queryBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_crud" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ws.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ws.service" />
+      <option name="MAIN_CLASS_NAME" value="com.ws.service.BookServiceMBTest" />
+      <option name="METHOD_NAME" value="queryBook(java.lang.Integer)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -241,34 +281,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="judgeEmpty.testSecond" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot_crud" />
+    <configuration name="CRUD02Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot_crud02" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ws.judge.*" />
+          <option name="PATTERN" value="com.ws.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ws.judge" />
-      <option name="MAIN_CLASS_NAME" value="com.ws.judge.judgeEmpty" />
-      <option name="METHOD_NAME" value="testSecond" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="judgeEmpty.testThird" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot_crud" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ws.judge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ws.judge" />
-      <option name="MAIN_CLASS_NAME" value="com.ws.judge.judgeEmpty" />
-      <option name="METHOD_NAME" value="testThird" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ws.CRUD02Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -280,21 +301,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="QuartzApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_quartz" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ws.QuartzApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="JUnit.judgeEmpty.testSecond" />
-      <item itemvalue="JUnit.judgeEmpty.testThird" />
-      <item itemvalue="JUnit.FactoryTest.test1" />
       <item itemvalue="JUnit.AbstractFactoryTest.test01" />
       <item itemvalue="JUnit.FactoryTest.test2" />
+      <item itemvalue="JUnit.BookServiceMBTest.queryBook" />
+      <item itemvalue="JUnit.BookServiceMBTest.queryBook (1)" />
       <item itemvalue="Spring Boot.CRUDApplication" />
+      <item itemvalue="Spring Boot.QuartzApplication" />
+      <item itemvalue="Spring Boot.CRUD02Application" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.CRUD02Application" />
+        <item itemvalue="JUnit.BookServiceMBTest.queryBook" />
+        <item itemvalue="JUnit.BookServiceMBTest.queryBook (1)" />
         <item itemvalue="JUnit.FactoryTest.test2" />
         <item itemvalue="JUnit.AbstractFactoryTest.test01" />
-        <item itemvalue="JUnit.FactoryTest.test1" />
-        <item itemvalue="JUnit.judgeEmpty.testThird" />
-        <item itemvalue="JUnit.judgeEmpty.testSecond" />
       </list>
     </recent_temporary>
   </component>
@@ -381,7 +410,10 @@
       <workItem from="1677116686654" duration="680000" />
       <workItem from="1677117423539" duration="3802000" />
       <workItem from="1677147137380" duration="307000" />
-      <workItem from="1677553834854" duration="1388000" />
+      <workItem from="1677553834854" duration="12207000" />
+      <workItem from="1677743775928" duration="1568000" />
+      <workItem from="1678072524268" duration="12467000" />
+      <workItem from="1678168359999" duration="42469000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1672018459539</created>
@@ -467,7 +499,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676542337082</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="activemq更新">
+      <created>1677556916126</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1677556916126</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

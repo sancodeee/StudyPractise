@@ -16,10 +16,13 @@ public class Book {
 
     @TableId(value = "id" , type = IdType.AUTO)
     private Integer id;
+
     @TableField("name")
     private String name;
+
     @TableField("type")
     private String type;
+
     @TableField("description")
     private String description;
 

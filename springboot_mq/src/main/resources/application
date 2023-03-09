@@ -8,9 +8,14 @@ spring:
     username: root
     password: 169167866Spl.
     driver-class-name: com.mysql.cj.jdbc.Driver
-    #配置activemq中间件
-#  activemq:
-#    broker-url: tcp://101.42.176.44:61616
+    #配置activemq中间件服务端，配个连接地址连接到该中间件
+  activemq:
+    broker-url: tcp://101.42.176.44:61616
+    #在消息队列中配置一个存储消息的空间，不然不知道将生产的消息放到哪里，名字随便起，也就是给消息指定位置
+  jms:
+    template:
+      default-destination: order
+
 
 mybatis-plus:
   global-config:

@@ -97,7 +97,7 @@ public class IBookServiceImpl extends ServiceImpl<BookMapper, Book> implements I
     public Boolean updateBook(Book book) {
         if(ObjectUtils.isNotEmpty(book) && ObjectUtils.isNotNull(book)){
             int i = bookMapper.updateById(book);
-            if( i == 1){
+            if( i != 0){
                 log.info("更新成功");
                 return true;
             }else {

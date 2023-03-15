@@ -1,7 +1,7 @@
 package com.ws.staticProxy;
 
 //真实角色
-public class You implements Mery{
+public class You implements Mery {
 
     @Override
     public void mery() {

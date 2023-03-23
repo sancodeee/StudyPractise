@@ -975,114 +975,147 @@ SELECT|sys.sys_config
       <ObjectGrants>SELECT,INSERT,UPDATE,DELETE,CREATE,DROP,RELOAD,SHUTDOWN,PROCESS,FILE,REFERENCES,INDEX,ALTER,SHOW DATABASES,SUPER,CREATE TEMPORARY TABLES,LOCK TABLES,EXECUTE,REPLICATION SLAVE,REPLICATION CLIENT,CREATE VIEW,SHOW VIEW,CREATE ROUTINE,ALTER ROUTINE,CREATE USER,EVENT,TRIGGER,CREATE TABLESPACE,CREATE ROLE,DROP ROLE!
 </ObjectGrants>
     </user>
-    <table id="307" parent="16" name="book"/>
-    <table id="308" parent="16" name="user"/>
-    <table id="309" parent="16" name="word">
+    <table id="307" parent="16" name="author"/>
+    <table id="308" parent="16" name="book"/>
+    <table id="309" parent="16" name="user"/>
+    <table id="310" parent="16" name="word">
       <Comment>word存储表</Comment>
     </table>
-    <column id="310" parent="307" name="id">
+    <column id="311" parent="307" name="id">
+      <Position>1</Position>
+      <Comment>主键id</Comment>
+      <DataType>int|0s</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>null</SequenceIdentity>
+    </column>
+    <column id="312" parent="307" name="author">
+      <Position>2</Position>
+      <Comment>作者&#xd;
+</Comment>
+      <DataType>varchar(255)|0s</DataType>
+    </column>
+    <key id="313" parent="307" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="314" parent="308" name="id">
       <Position>1</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="311" parent="307" name="name">
+    <column id="315" parent="308" name="name">
       <Position>2</Position>
       <DataType>varchar(60)|0s</DataType>
     </column>
-    <column id="312" parent="307" name="type">
+    <column id="316" parent="308" name="type">
       <Position>3</Position>
       <DataType>varchar(60)|0s</DataType>
     </column>
-    <column id="313" parent="307" name="description">
+    <column id="317" parent="308" name="description">
       <Position>4</Position>
       <DataType>varchar(60)|0s</DataType>
     </column>
-    <index id="314" parent="307" name="book_id_uindex">
+    <column id="318" parent="308" name="book_author">
+      <Position>5</Position>
+      <Comment>书籍作者</Comment>
+      <DataType>int|0s</DataType>
+    </column>
+    <index id="319" parent="308" name="book_id_uindex">
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="315" parent="307" name="PRIMARY">
-      <NameSurrogate>1</NameSurrogate>
-      <ColNames>id</ColNames>
-      <Primary>1</Primary>
-    </key>
-    <key id="316" parent="307" name="book_id_uindex">
-      <ColNames>id</ColNames>
-      <UnderlyingIndexName>book_id_uindex</UnderlyingIndexName>
-    </key>
-    <column id="317" parent="308" name="id">
-      <Position>1</Position>
-      <Comment>主键ID</Comment>
-      <DataType>bigint|0s</DataType>
-      <NotNull>1</NotNull>
-    </column>
-    <column id="318" parent="308" name="name">
-      <Position>2</Position>
-      <Comment>姓名</Comment>
-      <DataType>varchar(30)|0s</DataType>
-    </column>
-    <column id="319" parent="308" name="age">
-      <Position>3</Position>
-      <Comment>年龄</Comment>
-      <DataType>int|0s</DataType>
-    </column>
-    <column id="320" parent="308" name="email">
-      <Position>4</Position>
-      <Comment>邮箱</Comment>
-      <DataType>varchar(50)|0s</DataType>
-    </column>
+    <index id="320" parent="308" name="book_author">
+      <ColNames>book_author</ColNames>
+      <Type>btree</Type>
+    </index>
     <key id="321" parent="308" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <column id="322" parent="309" name="id">
+    <key id="322" parent="308" name="book_id_uindex">
+      <ColNames>id</ColNames>
+      <UnderlyingIndexName>book_id_uindex</UnderlyingIndexName>
+    </key>
+    <foreign-key id="323" parent="308" name="book_ibfk_1">
+      <ColNames>book_author</ColNames>
+      <RefTableName>author</RefTableName>
+      <RefColNames>id</RefColNames>
+    </foreign-key>
+    <column id="324" parent="309" name="id">
+      <Position>1</Position>
+      <Comment>主键ID</Comment>
+      <DataType>bigint|0s</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="325" parent="309" name="name">
+      <Position>2</Position>
+      <Comment>姓名</Comment>
+      <DataType>varchar(30)|0s</DataType>
+    </column>
+    <column id="326" parent="309" name="age">
+      <Position>3</Position>
+      <Comment>年龄</Comment>
+      <DataType>int|0s</DataType>
+    </column>
+    <column id="327" parent="309" name="email">
+      <Position>4</Position>
+      <Comment>邮箱</Comment>
+      <DataType>varchar(50)|0s</DataType>
+    </column>
+    <key id="328" parent="309" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="329" parent="310" name="id">
       <Position>1</Position>
       <DataType>int|0s</DataType>
       <NotNull>1</NotNull>
       <SequenceIdentity>null</SequenceIdentity>
     </column>
-    <column id="323" parent="309" name="pagetop">
+    <column id="330" parent="310" name="pagetop">
       <Position>2</Position>
       <DataType>varchar(8)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="324" parent="309" name="pageleft">
+    <column id="331" parent="310" name="pageleft">
       <Position>3</Position>
       <DataType>varchar(8)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="325" parent="309" name="pagebottom">
+    <column id="332" parent="310" name="pagebottom">
       <Position>4</Position>
       <DataType>varchar(8)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="326" parent="309" name="pageright">
+    <column id="333" parent="310" name="pageright">
       <Position>5</Position>
       <DataType>varchar(8)|0s</DataType>
       <NotNull>1</NotNull>
     </column>
-    <column id="327" parent="309" name="title">
+    <column id="334" parent="310" name="title">
       <Position>6</Position>
       <DataType>text|0s</DataType>
     </column>
-    <column id="328" parent="309" name="para">
+    <column id="335" parent="310" name="para">
       <Position>7</Position>
       <DataType>text|0s</DataType>
     </column>
-    <index id="329" parent="309" name="word_id_uindex">
+    <index id="336" parent="310" name="word_id_uindex">
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Type>btree</Type>
     </index>
-    <key id="330" parent="309" name="PRIMARY">
+    <key id="337" parent="310" name="PRIMARY">
       <NameSurrogate>1</NameSurrogate>
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
-    <key id="331" parent="309" name="word_id_uindex">
+    <key id="338" parent="310" name="word_id_uindex">
       <ColNames>id</ColNames>
       <UnderlyingIndexName>word_id_uindex</UnderlyingIndexName>
     </key>

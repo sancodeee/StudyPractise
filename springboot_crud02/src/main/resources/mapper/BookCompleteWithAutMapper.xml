@@ -17,7 +17,11 @@
 
 <!--  根据书名查询带有作者名字的实体  -->
     <select id="getBookByName" resultMap="BookCompleteVo">
-        select * from book left join author on book.book_author=author.id where name=#{name}
+        select * from book as b left join author as a on b.book_author=a.id where name=#{name}
+    </select>
+
+    <select id="getBookByNameAndType" resultType="com.ws.vo.BookCompleteVo">
+        select * from book as b left join author as a on b.book_author = a.id where name=#{name} and type = #{type}
     </select>
 
 

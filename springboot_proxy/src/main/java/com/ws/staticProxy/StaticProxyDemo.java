@@ -1,6 +1,6 @@
 package com.ws.staticProxy;
 
-//静态代理：构造方法传参 通过构造方法将真实实例对象 传递给代理对象
+//静态代理：构造方法传参 通过构造方法将真实实例对象 传递给代理对象 然后通过调用代理对象实现了真实对象要做的事情
 
 public class StaticProxyDemo {
 

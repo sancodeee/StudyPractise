@@ -15,4 +15,7 @@ public interface BookCompleteWithAutMapper extends BaseMapper<BookCompleteVo> {
 
     //根据书名查询
     List<BookCompleteVo> getBookByName(@Param(value = "name") String name);
+
+    //根据书名和书籍类型查询
+    List<BookCompleteVo> getBookByNameAndType(@Param(value = "name") String name , @Param(value = "type") String type);
 }

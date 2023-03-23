@@ -71,5 +71,15 @@ public class BookController {
         return bookService.getBookByName2(name);
     }
 
+    @ApiOperation(value = "根据书名和类型查询")
+    @GetMapping(value = "/getBookByNameAndType")
+    public List<BookCompleteVo> getBookByNameAndType(@ApiParam(value = "书籍名称", required = true)
+                                                     @RequestParam(value = "name", required = true) String name,
+                                                     @ApiParam(value = "书籍类型", required = true)
+                                                     @RequestParam(value = "type", required = true) String type) {
+        List<BookCompleteVo> bookCompleteVoList = bookService.getBookByNameAndType(name, type);
+        return bookCompleteVoList;
+    }
+
 
 }

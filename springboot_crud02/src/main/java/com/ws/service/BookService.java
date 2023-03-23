@@ -17,11 +17,15 @@ public interface BookService extends IService<Book> {
 
     //查询全部数据（多表）
     List<BookCompleteVo> getAllBookWithAuthor();
+
     //方法二
     List<BookCompleteVo> getAllBookWithAuthor2();
 
     List<BookCompleteVo> getBookByName(String name);
 
     List<BookCompleteVo> getBookByName2(String name);
+
+    //根据书名和类型查询
+    List<BookCompleteVo> getBookByNameAndType(String name, String type);
 
 }

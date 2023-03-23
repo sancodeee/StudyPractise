@@ -23,19 +23,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d82d211c-b084-4b68-a67d-3ac5ac77d26e" name="Default Changelist" comment="代码更新">
-      <change afterPath="$PROJECT_DIR$/springboot_proxy/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_proxy/src/main/java/com/ws/ProxyApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_proxy/src/main/java/com/ws/staticProxy/Mery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_proxy/src/main/java/com/ws/staticProxy/StaticProxyDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_proxy/src/main/java/com/ws/staticProxy/WeddingCompany.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_proxy/src/main/java/com/ws/staticProxy/You.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_proxy/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/dto/BookWithAuthor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/mapper/BookAuthorMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/service/BookAuthorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/service/impl/BookAuthorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_crud02/src/main/resources/mapper/BookAuthorMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_proxy/src/main/java/com/ws/cGlibDynamicProxy/CGlibProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_proxy/src/main/java/com/ws/cGlibDynamicProxy/CGlibProxyTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_proxy/src/main/java/com/ws/cGlibDynamicProxy/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_proxy/src/main/java/com/ws/dynamicProxy/JdkDynamicProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_proxy/src/main/java/com/ws/dynamicProxy/MyInvocation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_proxy/src/main/java/com/ws/dynamicProxy/dao/BookDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_proxy/src/main/java/com/ws/dynamicProxy/dao/impl/BookDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_proxy/src/main/java/com/ws/dynamicProxy/dao/impl/BookDaoImpl2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_proxy/src/main/java/com/ws/jdkDynamicProxy/JdkProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_proxy/src/main/java/com/ws/jdkDynamicProxy/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_proxy/src/main/java/com/ws/jdkDynamicProxy/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_proxy/src/main/java/com/ws/jdkDynamicProxy/jdkDynamicTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_proxy/src/main/java/com/ws/jdkDynamicProxy/jdkDynamicTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9489535d-d84d-4ae8-8045-2adcc79b287f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9489535d-d84d-4ae8-8045-2adcc79b287f.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/service/impl/IBookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/service/impl/IBookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/controller/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/mapper/BookCompleteWithAutMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/mapper/BookCompleteWithAutMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/service/BookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/service/BookService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/service/impl/BookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/service/impl/BookServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_crud02/src/main/resources/mapper/BookCompleteWithAutMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud02/src/main/resources/mapper/BookCompleteWithAutMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_proxy/src/main/java/com/ws/staticProxy/StaticProxyDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_proxy/src/main/java/com/ws/staticProxy/StaticProxyDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,7 +140,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/springboot_crud02/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/EnumDemo" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -135,7 +150,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.14257812" />
-    <property name="project.structure.side.proportion" value="0.21640904" />
+    <property name="project.structure.side.proportion" value="0.23717217" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RebelAgentSelection">
@@ -173,13 +188,52 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StaticProxyDemo">
-    <configuration name="StaticProxyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ws.staticProxy.StaticProxyDemo" />
+  <component name="RunManager" selected="Spring Boot.CRUD02Application">
+    <configuration name="CGlibProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ws.cGlibDynamicProxy.CGlibProxyTest" />
       <module name="springboot_proxy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ws.staticProxy.*" />
+          <option name="PATTERN" value="com.ws.cGlibDynamicProxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JdkDynamicProxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ws.dynamicProxy.JdkDynamicProxy" />
+      <module name="springboot_proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ws.dynamicProxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jdkDynamicTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ws.jdkDynamicProxy.jdkDynamicTest" />
+      <module name="springboot_proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ws.jdkDynamicProxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="jdkDynamicTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ws.jdkDynamicProxy.jdkDynamicTest2" />
+      <module name="springboot_proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ws.jdkDynamicProxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -194,54 +248,6 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BookServiceMBTest.queryBook (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot_crud" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ws.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ws.service" />
-      <option name="MAIN_CLASS_NAME" value="com.ws.service.BookServiceMBTest" />
-      <option name="METHOD_NAME" value="queryBook" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BookServiceMBTest.queryBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot_crud" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ws.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ws.service" />
-      <option name="MAIN_CLASS_NAME" value="com.ws.service.BookServiceMBTest" />
-      <option name="METHOD_NAME" value="queryBook(java.lang.Integer)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FactoryTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot_designPatterns" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ws.FactoryPatterns.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ws.FactoryPatterns" />
-      <option name="MAIN_CLASS_NAME" value="com.ws.FactoryPatterns.FactoryTest" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -274,21 +280,21 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.FactoryTest.test2" />
-      <item itemvalue="JUnit.BookServiceMBTest.queryBook" />
-      <item itemvalue="JUnit.BookServiceMBTest.queryBook (1)" />
+      <item itemvalue="Application.JdkDynamicProxy" />
+      <item itemvalue="Application.jdkDynamicTest" />
+      <item itemvalue="Application.jdkDynamicTest2" />
+      <item itemvalue="Application.CGlibProxyTest" />
       <item itemvalue="Spring Boot.CRUDApplication" />
       <item itemvalue="Spring Boot.QuartzApplication" />
       <item itemvalue="Spring Boot.CRUD02Application" />
-      <item itemvalue="Application.StaticProxyDemo" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StaticProxyDemo" />
         <item itemvalue="Spring Boot.CRUD02Application" />
-        <item itemvalue="JUnit.BookServiceMBTest.queryBook" />
-        <item itemvalue="JUnit.BookServiceMBTest.queryBook (1)" />
-        <item itemvalue="JUnit.FactoryTest.test2" />
+        <item itemvalue="Application.CGlibProxyTest" />
+        <item itemvalue="Application.jdkDynamicTest2" />
+        <item itemvalue="Application.jdkDynamicTest" />
+        <item itemvalue="Application.JdkDynamicProxy" />
       </list>
     </recent_temporary>
   </component>
@@ -383,7 +389,11 @@
       <workItem from="1678439109273" duration="5258000" />
       <workItem from="1678506194761" duration="295000" />
       <workItem from="1678548239096" duration="8899000" />
-      <workItem from="1678863355984" duration="3405000" />
+      <workItem from="1678863355984" duration="25725000" />
+      <workItem from="1679298088770" duration="977000" />
+      <workItem from="1679482513817" duration="547000" />
+      <workItem from="1679535178391" duration="89000" />
+      <workItem from="1679535412859" duration="8740000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1672018459539</created>
@@ -483,7 +493,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678353307297</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="代码更新">
+      <created>1678867566681</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1678867566681</updated>
+    </task>
+    <task id="LOCAL-00016" summary="代码更新">
+      <created>1678867619097</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1678867619097</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

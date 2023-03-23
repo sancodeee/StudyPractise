@@ -91,8 +91,14 @@ public class BookServiceImpl extends ServiceImpl<BookMapper, Book> implements Bo
     }
 
     //根据书名查询 ： sql连表查询
-    public List<BookCompleteVo> getBookByName2(String name){
+    public List<BookCompleteVo> getBookByName2(String name) {
         return bookCompleteWithAutMapper.getBookByName(name);
+    }
+
+    //根据书名和书籍类型查询
+    public List<BookCompleteVo> getBookByNameAndType(String name, String type) {
+        List<BookCompleteVo> bookCompleteVoList = bookCompleteWithAutMapper.getBookByNameAndType(name, type);
+        return bookCompleteVoList;
     }
 
 

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ws.mapper.BookAuthorMapper">
+    <resultMap id="BookWithAuthorMap" type="com.ws.dto.BookWithAuthor">
+        <id property="id" column="id" />
+        <result property="name" column="name" />
+        <result property="type" column="type" />
+        <result property="description" column="description" />
+        <collection property="author" ofType="com.ws.entity.Author">
+            <id property="id" column="id" />
+            <result property="author" column="author"/>
+        </collection>
+    </resultMap>
+
+    <select id="getBookInfo" resultMap="BookWithAuthorMap">
+        select * from book as b , author as a where b.book_author = a.id and b.name = #{name};
+    </select>
+</mapper>

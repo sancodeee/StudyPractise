@@ -8,17 +8,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="springboot_easyexcel" />
-        <module name="springboot_designPatterns" />
         <module name="EnumDemo" />
         <module name="springboot_es" />
-        <module name="springboot_proxy" />
-        <module name="springboot_quartz" />
         <module name="springboot_mongodb" />
         <module name="springboot_crud02" />
-        <module name="springboot_cache" />
-        <module name="springboot_crud" />
+        <module name="springboot_kafka" />
         <module name="springboot_redis" />
         <module name="springboot_mq" />
+        <module name="springboot_designPatterns" />
+        <module name="springboot_proxy" />
+        <module name="springboot_quartz" />
+        <module name="springboot_cache" />
+        <module name="springboot_crud" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />
@@ -32,6 +33,7 @@
       <module name="springboot_designPatterns" options="-parameters" />
       <module name="springboot_easyexcel" options="-parameters" />
       <module name="springboot_es" options="-parameters" />
+      <module name="springboot_kafka" options="-parameters" />
       <module name="springboot_mongodb" options="-parameters" />
       <module name="springboot_mq" options="-parameters" />
       <module name="springboot_proxy" options="-parameters" />

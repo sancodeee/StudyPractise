@@ -15,7 +15,7 @@ public class OrderController {
     private OrderService orderService;
 
     @GetMapping("/handleOrder")
-    public String handleOrder(@RequestParam(name = "id" ,required = true ,defaultValue = "1") String id){
+    public String handleOrder(@RequestParam(value = "id" ,required = true ,defaultValue = "1") String id){
 
         orderService.order(id);
         return "处理"+id+"号订单";

@@ -1,7 +1,9 @@
 package com.ws.controller;
 
 import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.ws.dto.BookWithAuthor;
 import com.ws.entity.Book;
+import com.ws.service.BookAuthorService;
 import com.ws.service.BookService;
 import com.ws.vo.BookCompleteVo;
 import io.swagger.annotations.ApiOperation;
@@ -20,6 +22,9 @@ public class BookController {
 
     @Autowired
     private BookService bookService;
+
+    @Autowired
+    private BookAuthorService bookAuthorService;
 
     //查询全部数据
     @ApiOperation(value = "查询全部数据")
@@ -79,6 +84,22 @@ public class BookController {
                                                      @RequestParam(value = "type", required = true) String type) {
         List<BookCompleteVo> bookCompleteVoList = bookService.getBookByNameAndType(name, type);
         return bookCompleteVoList;
+    }
+
+    @ApiOperation(value = "根据书名查询书籍详细信息")
+    @GetMapping(value = "/getBookAuthorByName")
+    public List<BookWithAuthor> getBookAuthorByName(@ApiParam(value = "书籍名称", required = true)
+                                                    @RequestParam(value = "name", required = true) String name) {
+        List<BookWithAuthor> bookAuthorList = bookAuthorService.getBookByName(name);
+        return bookAuthorList;
+    }
+
+    @ApiOperation(value = "根据书名查询书籍详细信息")
+    @GetMapping(value = "/getBookAuthorByName2")
+    public List<BookWithAuthor> getBookAuthorByName2(@ApiParam(value = "书籍名称", required = true)
+                                                    @RequestParam(value = "name", required = true) String name) {
+        List<BookWithAuthor> bookAuthorList = bookAuthorService.getBookByName2(name);
+        return bookAuthorList;
     }
 
 

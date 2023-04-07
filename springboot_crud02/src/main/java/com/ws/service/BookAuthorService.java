@@ -9,4 +9,6 @@ public interface BookAuthorService extends IService<BookWithAuthor> {
 
     List<BookWithAuthor> getBookByName(String name);
 
+    List<BookWithAuthor> getBookByName2(String name);
+
 }

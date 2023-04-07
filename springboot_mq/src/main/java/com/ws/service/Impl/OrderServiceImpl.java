@@ -15,8 +15,10 @@ public class OrderServiceImpl implements OrderService {
     @Override
     public void order(String id) {
         System.out.println(id+"号订单处理开始...");
-        //发送短信业务
+        //生产者：发送短信业务
         processMessage.sendMessage(id);
-        System.out.println(id+"号订单处理完成...");
+        //消费者：消费短信业务
+        processMessage.handleMessage();
+        System.out.println(id+"号订单处理完成...等待处理");
     }
 }

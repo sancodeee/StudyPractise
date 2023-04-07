@@ -17,6 +17,7 @@
     </properties>
 
     <dependencies>
+        <!--    swagger相关依赖    -->
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-spring-web</artifactId>

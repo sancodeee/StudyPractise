@@ -7,12 +7,12 @@
         <result property="type" column="type" />
         <result property="description" column="description" />
         <collection property="author" ofType="com.ws.entity.Author">
-            <id property="id" column="id" />
+            <result property="id" column="id" />
             <result property="author" column="author"/>
         </collection>
     </resultMap>
 
     <select id="getBookInfo" resultMap="BookWithAuthorMap">
-        select * from book as b , author as a where b.book_author = a.id and b.name = #{name};
+        select b.id,name,type,description,author from book as b , author as a where b.name = #{name} and a.id = b.book_author;
     </select>
 </mapper>

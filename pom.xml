@@ -22,6 +22,7 @@
         <module>springboot_mq</module>
         <module>springboot_crud02</module>
         <module>springboot_proxy</module>
+        <module>springboot_kafka</module>
 
     </modules>
 

@@ -23,6 +23,7 @@
         <module>springboot_crud02</module>
         <module>springboot_proxy</module>
         <module>springboot_kafka</module>
+        <module>Utils</module>
 
     </modules>
 

@@ -18,6 +18,7 @@
         <module name="springboot_designPatterns" />
         <module name="springboot_proxy" />
         <module name="springboot_quartz" />
+        <module name="Utils" />
         <module name="springboot_cache" />
         <module name="springboot_crud" />
       </profile>
@@ -27,6 +28,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="EnumDemo" options="-parameters" />
+      <module name="Utils" options="-parameters" />
       <module name="springboot_cache" options="-parameters" />
       <module name="springboot_crud" options="-parameters" />
       <module name="springboot_crud02" options="-parameters" />

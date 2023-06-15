@@ -4,11 +4,13 @@ import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.ws.controller.result.Result;
 import com.ws.pojo.Book;
 import com.ws.service.IBookService;
+import com.ws.vo.BookNameCountVo;
 import com.ws.vo.BookVo;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
+import javax.websocket.server.PathParam;
 import java.util.List;
 
 @Slf4j
@@ -35,8 +37,8 @@ public class BookController {
     }
 
     //根据书名查询
-    @GetMapping("/getByName")
-    public Result<List<Book>> getByName(@RequestParam(name = "bookName" , required = false , defaultValue = "老人与海") String bookName){
+    @GetMapping("/getByName") //@PathParam注解和RequestParam类似，都可以取url路径中的Param，@RequestParam注解还能取body中的Param
+    public Result<List<Book>> getByName(@PathParam(value = "bookName" ) String bookName){
         List<Book> bookList = iBookService.getBookByName(bookName);
         return Result.queryOk(bookList);
     }
@@ -57,8 +59,21 @@ public class BookController {
         return Result.queryOk(iBookService.getPage(currentPage,pageSize));
     }
 
+    //根据书名查询该书在数据库中的信息条数
+    @GetMapping(value = "/getCountByName")
+    public Result<Object> getCountByName(@RequestParam(value = "bookName") String bookName){
+        BookNameCountVo countByName = iBookService.getCountByName(bookName);
+        return Result.queryOk(countByName);
+    }
+
+    //根据类型查询该类型在数据库中的条数
+    @GetMapping(value = "/getCountByType")
+    public Result<Object> getCountByType(@RequestParam(value = "type",required = true) String type){
+        return null;
+    }
+
     //添加
-    @PostMapping("/save")
+    @PutMapping("/save")
     public Result<Book> save(@RequestBody Book book) {
         boolean success = iBookService.save(book);
         return Result.insertOk(book);

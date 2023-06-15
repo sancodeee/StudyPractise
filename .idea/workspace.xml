@@ -22,48 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d82d211c-b084-4b68-a67d-3ac5ac77d26e" name="Default Changelist" comment="关闭指定端口号进程">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_crud/springboot_crud.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/vo/BookNameCountVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/vo/BookTypeCountVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_crud/src/test/java/com/ws/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_dictionary/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_dictionary/springboot_dictionary.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_dictionary/src/main/java/com/ws/DictiontaryApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_dictionary/src/main/java/com/ws/Enum/AuditTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_dictionary/src/main/java/com/ws/common/RespResponse/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_dictionary/src/main/java/com/ws/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_dictionary/src/main/java/com/ws/dao/SysDictDataMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_dictionary/src/main/java/com/ws/dao/SysDictTypeMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_dictionary/src/main/java/com/ws/dao/xml/SysDictDataMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_dictionary/src/main/java/com/ws/dao/xml/SysDictTypeMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_dictionary/src/main/java/com/ws/po/SysDictData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_dictionary/src/main/java/com/ws/po/SysDictType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_dictionary/src/main/java/com/ws/service/Impl/SysDictDataServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_dictionary/src/main/java/com/ws/service/Impl/SysDictTypeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_dictionary/src/main/java/com/ws/service/SysDictDataService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_dictionary/src/main/java/com/ws/service/SysDictTypeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_dictionary/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9489535d-d84d-4ae8-8045-2adcc79b287f.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9489535d-d84d-4ae8-8045-2adcc79b287f/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/7/c7bfe3740a595aa35cdc22ee07acb4bee8861bc6" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utils/src/main/java/com/ws/KillProcessApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/src/main/java/com/ws/KillProcessApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="d82d211c-b084-4b68-a67d-3ac5ac77d26e" name="Default Changelist" comment="gengxin">
       <change beforePath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/service/IBookService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/service/IBookService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/service/impl/IBookServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/service/impl/IBookServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_crud02/springboot_crud02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud02/springboot_crud02.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_crud02/src/main/resources/mapper/BookAuthorMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud02/src/main/resources/mapper/BookAuthorMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_crud02/src/main/resources/mapper/BookCompleteWithAutMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud02/src/main/resources/mapper/BookCompleteWithAutMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_easyexcel/src/main/resources/config/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_easyexcel/src/main/resources/config/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -451,6 +411,7 @@
       <workItem from="1683617058366" duration="12725000" />
       <workItem from="1683687070182" duration="4069000" />
       <workItem from="1683876184430" duration="736000" />
+      <workItem from="1686809445582" duration="297000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1672018459539</created>
@@ -585,7 +546,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681195977885</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="gengxin">
+      <created>1686809728350</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1686809728350</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -612,7 +580,8 @@
     <MESSAGE value="activemq更新" />
     <MESSAGE value="代码更新" />
     <MESSAGE value="关闭指定端口号进程" />
-    <option name="LAST_COMMIT_MESSAGE" value="关闭指定端口号进程" />
+    <MESSAGE value="gengxin" />
+    <option name="LAST_COMMIT_MESSAGE" value="gengxin" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -3,6 +3,7 @@ package com.ws.service;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.ws.pojo.Book;
+import com.ws.vo.BookNameCountVo;
 import com.ws.vo.BookVo;
 
 import java.util.List;
@@ -17,6 +18,12 @@ public interface IBookService extends IService<Book> {
 
     //根据书名查询书籍
     List<Book> getBookByName(String bookName);
+
+    //根据书名查询该书籍在数据库中的信息条数
+    BookNameCountVo getCountByName(String bookName);
+
+    //根据类型查询该类型在数据库中的信息条数
+
 
     //根据id查询书籍
     Book getBookById(Integer id);

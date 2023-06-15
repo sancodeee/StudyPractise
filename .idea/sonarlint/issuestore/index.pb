@@ -133,5 +133,3 @@ I
 springboot_quartz/pom.xml,f\6\f671f01710652388fbd5591cd58d6e2a10a2faf1
 m
 =springboot_quartz/src/main/java/com/ws/schedule/TimeTask.java,c\a\caef9ae9b23d079d3990357dc5c82db97597afdc
-j
-:.idea/dataSources/9489535d-d84d-4ae8-8045-2adcc79b287f.xml,c\7\c7bfe3740a595aa35cdc22ee07acb4bee8861bc6

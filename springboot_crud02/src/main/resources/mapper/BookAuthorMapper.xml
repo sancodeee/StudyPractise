@@ -2,17 +2,22 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.ws.mapper.BookAuthorMapper">
     <resultMap id="BookWithAuthorMap" type="com.ws.dto.BookWithAuthor">
-        <id property="id" column="id" />
-        <result property="name" column="name" />
-        <result property="type" column="type" />
-        <result property="description" column="description" />
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="type" column="type"/>
+        <result property="description" column="description"/>
         <collection property="author" ofType="com.ws.entity.Author">
-            <result property="id" column="id" />
+            <result property="id" column="id"/>
             <result property="author" column="author"/>
         </collection>
     </resultMap>
 
     <select id="getBookInfo" resultMap="BookWithAuthorMap">
-        select b.id,name,type,description,author from book as b , author as a where b.name = #{name} and a.id = b.book_author;
+        select b.id, name, type, description, author
+        from book as b,
+             author as a
+        where b.name = #{name}
+          and a.id =
+              b.book_author;
     </select>
 </mapper>

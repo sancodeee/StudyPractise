@@ -23,7 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d82d211c-b084-4b68-a67d-3ac5ac77d26e" name="Default Changelist" comment="gengxin">
-      <change beforePath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/src/main/java/com/ws/controller/BookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Utils/src/main/java/com/ws/utils/TestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_proxy/src/main/java/com/ws/cGlibDynamicProxy/CGlibProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_proxy/src/main/java/com/ws/cGlibDynamicProxy/CGlibProxy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +68,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
   </component>
   <component name="JRebelWorkspace">
     <option name="jrebelEnabledAutocompile" value="true" />
@@ -167,7 +175,46 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.DictiontaryApplication">
+  <component name="RunManager" selected="Application.TestDemo">
+    <configuration name="CGlibProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ws.cGlibDynamicProxy.CGlibProxyTest" />
+      <module name="springboot_proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ws.cGlibDynamicProxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ws.utils.TestDemo" />
+      <module name="Utils" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ws.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="springboot_crud" />
       <extension name="coverage">
@@ -180,19 +227,6 @@
       <option name="MAIN_CLASS_NAME" value="com.ws.test" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ActiveMQApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springboot_mq" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ws.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ws.ActiveMQApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -224,19 +258,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KafkaApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springboot_kafka" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ws.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ws.KafkaApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="KillProcessApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="Utils" />
       <extension name="coverage">
@@ -258,22 +279,22 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.CGlibProxyTest" />
+      <item itemvalue="Application.TestDemo" />
       <item itemvalue="JUnit.test.test" />
       <item itemvalue="Spring Boot.CRUDApplication" />
       <item itemvalue="Spring Boot.QuartzApplication" />
       <item itemvalue="Spring Boot.CRUD02Application" />
-      <item itemvalue="Spring Boot.ActiveMQApplication" />
-      <item itemvalue="Spring Boot.KafkaApplication" />
       <item itemvalue="Spring Boot.KillProcessApplication" />
       <item itemvalue="Spring Boot.DictiontaryApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestDemo" />
+        <item itemvalue="Application.CGlibProxyTest" />
         <item itemvalue="Spring Boot.DictiontaryApplication" />
         <item itemvalue="JUnit.test.test" />
         <item itemvalue="Spring Boot.KillProcessApplication" />
-        <item itemvalue="Spring Boot.KafkaApplication" />
-        <item itemvalue="Spring Boot.ActiveMQApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -411,7 +432,8 @@
       <workItem from="1683617058366" duration="12725000" />
       <workItem from="1683687070182" duration="4069000" />
       <workItem from="1683876184430" duration="736000" />
-      <workItem from="1686809445582" duration="297000" />
+      <workItem from="1686809445582" duration="10252000" />
+      <workItem from="1687153342489" duration="895000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1672018459539</created>
@@ -553,7 +575,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686809728350</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="gengxin">
+      <created>1686809782245</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1686809782245</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

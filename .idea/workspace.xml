@@ -23,12 +23,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d82d211c-b084-4b68-a67d-3ac5ac77d26e" name="Default Changelist" comment="gengxin">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utils/src/main/java/com/ws/utils/TestDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_proxy/src/main/java/com/ws/cGlibDynamicProxy/CGlibProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_proxy/src/main/java/com/ws/cGlibDynamicProxy/CGlibProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/src/main/java/com/ws/utils/TestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/src/main/java/com/ws/leetcode/TestDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,27 +187,14 @@
       </method>
     </configuration>
     <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ws.utils.TestDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.ws.leetcode.TestDemo" />
       <module name="Utils" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ws.utils.*" />
+          <option name="PATTERN" value="com.ws.leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -433,7 +417,8 @@
       <workItem from="1683687070182" duration="4069000" />
       <workItem from="1683876184430" duration="736000" />
       <workItem from="1686809445582" duration="10252000" />
-      <workItem from="1687153342489" duration="895000" />
+      <workItem from="1687153342489" duration="5775000" />
+      <workItem from="1687161056381" duration="358000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1672018459539</created>
@@ -582,7 +567,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686809782245</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="gengxin">
+      <created>1687154403862</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1687154403862</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

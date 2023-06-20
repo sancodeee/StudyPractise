@@ -1,4 +1,4 @@
-package com.ws.utils;
+package com.ws.leetcode;
 
 import lombok.extern.slf4j.Slf4j;
 
@@ -9,8 +9,8 @@ import java.util.Stack;
 public class TestDemo {
     //test工具类
     public static void main(String[] args) {
-        String s = "12341223";
-        int i = lengthOfLongestSubstring(s);
+        String s = "111111111";
+        String i = longestPalindrome2(s);
         System.out.println(i);
     }
 
@@ -55,7 +55,7 @@ public class TestDemo {
 
     /**
      * 两数之和
-     *
+     * 时间复杂度：O(n²)
      * @param nums 数组
      * @param target 目标值
      * @return 数组
@@ -74,6 +74,13 @@ public class TestDemo {
         return new int[]{};
     }
 
+    /**
+     * 两数之和
+     * 时间复杂度O(n)
+     * @param nums 数组
+     * @param target 目标值
+     * @return 数组
+     */
     public static int[] twoSum2(int[] nums, int target) {
         int[] result = new int[2];
         HashMap<Integer, Integer> map = new HashMap<>(nums.length, 1);
@@ -121,12 +128,62 @@ public class TestDemo {
 
     /**
      * 最长回文子串
+     * 暴力求解 超时 时间复杂度: O(n²)
      * @param s 入参
      * @return String
      */
     public static String longestPalindrome(String s){
-
-         return null;
+        String longestString = "";
+        int maxLength = 0 ;
+        for (int i = 0; i < s.length(); i++) {
+            for (int j = i + 1; j < s.length() + 1 ; j++) {
+                String substring = s.substring(i, j);
+                log.info("子串：{}", substring);
+                StringBuilder reverse = new StringBuilder().append(substring).reverse();
+                if (substring.equals(String.valueOf(reverse))){
+                    if (substring.length() > maxLength) {
+                        maxLength = substring.length();
+                        longestString = substring;
+                    }
+                }
+                log.info("没有回文串");
+            }
+        }
+        return longestString;
     }
 
+    /**
+     * 最长回文子串
+     * 中心扩展法 时间复杂度：O(n²)
+     * @param s 入参
+     * @return String
+     */
+    public static String longestPalindrome2(String s){
+        if (s == null || s.length() < 2) {
+            return s;
+        }
+
+        int start = 0;
+        int end = 0;
+
+        for (int i = 0; i < s.length(); i++) {
+            int len1 = expandAroundCenter(s, i, i);
+            int len2 = expandAroundCenter(s, i, i + 1);
+            int len = Math.max(len1, len2);
+
+            if (len > end - start) {
+                start = i - (len - 1) / 2;
+                end = i + len / 2;
+            }
+        }
+
+        return s.substring(start, end + 1);
+    }
+    public static int expandAroundCenter(String s, int left, int right) {
+        while (left >= 0 && right < s.length() && s.charAt(left) == s.charAt(right)) {
+            left--;
+            right++;
+        }
+        return right - left - 1;
+    }
 }

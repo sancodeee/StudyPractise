@@ -22,11 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d82d211c-b084-4b68-a67d-3ac5ac77d26e" name="Default Changelist" comment="gengxin">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Utils/src/main/java/com/ws/utils/TestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/src/main/java/com/ws/leetcode/TestDemo.java" afterDir="false" />
-    </list>
+    <list default="true" id="d82d211c-b084-4b68-a67d-3ac5ac77d26e" name="Default Changelist" comment="gengxin" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -172,7 +168,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TestDemo">
+  <component name="RunManager" selected="JUnit.SpringbootRedisTest.set">
     <configuration name="CGlibProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ws.cGlibDynamicProxy.CGlibProxyTest" />
       <module name="springboot_proxy" />
@@ -199,17 +195,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="springboot_crud" />
+    <configuration name="SpringbootRedisTest.set" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="springboot_redis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ws.*" />
+          <option name="PATTERN" value="com.ws.testDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.ws" />
-      <option name="MAIN_CLASS_NAME" value="com.ws.test" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="com.ws.testDemo" />
+      <option name="MAIN_CLASS_NAME" value="com.ws.testDemo.SpringbootRedisTest" />
+      <option name="METHOD_NAME" value="set" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -242,14 +238,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KillProcessApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="KillProcessApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Utils" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ws.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ws.KillProcessApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -262,23 +252,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RedisApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot_redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ws.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ws.RedisApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.CGlibProxyTest" />
       <item itemvalue="Application.TestDemo" />
-      <item itemvalue="JUnit.test.test" />
+      <item itemvalue="JUnit.SpringbootRedisTest.set" />
       <item itemvalue="Spring Boot.CRUDApplication" />
       <item itemvalue="Spring Boot.QuartzApplication" />
       <item itemvalue="Spring Boot.CRUD02Application" />
-      <item itemvalue="Spring Boot.KillProcessApplication" />
       <item itemvalue="Spring Boot.DictiontaryApplication" />
+      <item itemvalue="Spring Boot.RedisApplication" />
+      <item itemvalue="Spring Boot.KillProcessApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.SpringbootRedisTest.set" />
+        <item itemvalue="Spring Boot.RedisApplication" />
         <item itemvalue="Application.TestDemo" />
         <item itemvalue="Application.CGlibProxyTest" />
         <item itemvalue="Spring Boot.DictiontaryApplication" />
-        <item itemvalue="JUnit.test.test" />
-        <item itemvalue="Spring Boot.KillProcessApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -419,6 +423,10 @@
       <workItem from="1686809445582" duration="10252000" />
       <workItem from="1687153342489" duration="5775000" />
       <workItem from="1687161056381" duration="358000" />
+      <workItem from="1687239975887" duration="1872000" />
+      <workItem from="1688018167060" duration="2013000" />
+      <workItem from="1688022246264" duration="30000" />
+      <workItem from="1688022346776" duration="94000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1672018459539</created>
@@ -574,7 +582,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687154403862</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="gengxin">
+      <created>1687240109917</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1687240109917</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

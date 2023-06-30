@@ -23,7 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d82d211c-b084-4b68-a67d-3ac5ac77d26e" name="Default Changelist" comment="gengxin">
+      <change afterPath="$PROJECT_DIR$/springboot_redis/src/main/java/com/ws/service/Impl/JedisServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_redis/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,13 +173,26 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SpringbootRedisTest.set">
+  <component name="RunManager" selected="Application.JedisServiceImpl">
     <configuration name="CGlibProxyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ws.cGlibDynamicProxy.CGlibProxyTest" />
       <module name="springboot_proxy" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ws.cGlibDynamicProxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JedisServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ws.service.Impl.JedisServiceImpl" />
+      <module name="springboot_redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ws.service.Impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,6 +209,17 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -223,19 +250,6 @@
     <configuration name="CRUDApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot_crud" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ws.CRUDApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DictiontaryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="springboot_dictionary" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ws.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ws.DictiontaryApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -275,16 +289,16 @@
       <item itemvalue="Spring Boot.QuartzApplication" />
       <item itemvalue="Spring Boot.CRUD02Application" />
       <item itemvalue="Spring Boot.KillProcessApplication" />
-      <item itemvalue="Spring Boot.DictiontaryApplication" />
       <item itemvalue="Spring Boot.RedisApplication" />
+      <item itemvalue="Application.JedisServiceImpl" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JedisServiceImpl" />
         <item itemvalue="JUnit.SpringbootRedisTest.set" />
         <item itemvalue="Spring Boot.RedisApplication" />
         <item itemvalue="Application.TestDemo" />
         <item itemvalue="Application.CGlibProxyTest" />
-        <item itemvalue="Spring Boot.DictiontaryApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -429,6 +443,8 @@
       <workItem from="1688018167060" duration="2013000" />
       <workItem from="1688022246264" duration="30000" />
       <workItem from="1688022346776" duration="3004000" />
+      <workItem from="1688032103063" duration="1629000" />
+      <workItem from="1688094795695" duration="2827000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1672018459539</created>
@@ -598,7 +614,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688022524437</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="gengxin">
+      <created>1688032158832</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1688032158832</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

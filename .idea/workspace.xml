@@ -23,10 +23,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d82d211c-b084-4b68-a67d-3ac5ac77d26e" name="Default Changelist" comment="gengxin">
-      <change afterPath="$PROJECT_DIR$/springboot_redis/src/main/java/com/ws/service/Impl/JedisServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_aspect/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_aspect/src/main/java/com/ws/AspectApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_aspect/src/main/java/com/ws/aspect/firstAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_aspect/src/main/java/com/ws/service/Impl/myAspectServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_aspect/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_aspect/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_redis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -284,13 +290,13 @@
     <list>
       <item itemvalue="Application.CGlibProxyTest" />
       <item itemvalue="Application.TestDemo" />
+      <item itemvalue="Application.JedisServiceImpl" />
       <item itemvalue="JUnit.SpringbootRedisTest.set" />
       <item itemvalue="Spring Boot.CRUDApplication" />
       <item itemvalue="Spring Boot.QuartzApplication" />
       <item itemvalue="Spring Boot.CRUD02Application" />
       <item itemvalue="Spring Boot.KillProcessApplication" />
       <item itemvalue="Spring Boot.RedisApplication" />
-      <item itemvalue="Application.JedisServiceImpl" />
     </list>
     <recent_temporary>
       <list>
@@ -444,7 +450,9 @@
       <workItem from="1688022246264" duration="30000" />
       <workItem from="1688022346776" duration="3004000" />
       <workItem from="1688032103063" duration="1629000" />
-      <workItem from="1688094795695" duration="3141000" />
+      <workItem from="1688094795695" duration="4787000" />
+      <workItem from="1688350335230" duration="1767000" />
+      <workItem from="1688365750543" duration="5836000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1672018459539</created>
@@ -628,7 +636,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688105472763</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="gengxin">
+      <created>1688105557469</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1688105557469</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

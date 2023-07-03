@@ -3,6 +3,7 @@
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/EnumDemo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Utils/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_aspect/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_cache/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_crud/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_crud/src/main/resources" charset="UTF-8" />

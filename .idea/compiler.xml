@@ -16,6 +16,7 @@
         <module name="springboot_redis" />
         <module name="springboot_mq" />
         <module name="springboot_designPatterns" />
+        <module name="springboot_aspect" />
         <module name="springboot_proxy" />
         <module name="springboot_dictionary" />
         <module name="springboot_quartz" />
@@ -30,6 +31,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="EnumDemo" options="-parameters" />
       <module name="Utils" options="-parameters" />
+      <module name="springboot_aspect" options="-parameters" />
       <module name="springboot_cache" options="-parameters" />
       <module name="springboot_crud" options="-parameters" />
       <module name="springboot_crud02" options="-parameters" />

@@ -25,6 +25,7 @@
         <module>springboot_kafka</module>
         <module>Utils</module>
         <module>springboot_dictionary</module>
+        <module>springboot_aspect</module>
     </modules>
 
     <properties>

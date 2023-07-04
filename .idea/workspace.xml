@@ -22,7 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d82d211c-b084-4b68-a67d-3ac5ac77d26e" name="Default Changelist" comment="gengxin" />
+    <list default="true" id="d82d211c-b084-4b68-a67d-3ac5ac77d26e" name="Default Changelist" comment="gengxin">
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,11 +89,12 @@
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\maven\maven-repository" />
         <option name="mavenHome" value="D:\maven\apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="D:\maven\settings\settings.xml" />
+        <option name="userSettingsFile" value="D:\maven\settings\settings-csdn2.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
+        <option name="jdkForImporter" value="#USE_PROJECT_JDK" />
         <option name="vmOptionsForImporter" value="-Xms1024m -Xmx2048m" />
       </MavenImportingSettings>
     </option>
@@ -131,7 +135,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.14257812" />
     <property name="project.structure.side.proportion" value="0.33174792" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -445,7 +449,7 @@
       <workItem from="1688094795695" duration="4787000" />
       <workItem from="1688350335230" duration="1767000" />
       <workItem from="1688365750543" duration="10558000" />
-      <workItem from="1688442321134" duration="8511000" />
+      <workItem from="1688442321134" duration="9574000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1672018459539</created>
@@ -657,7 +661,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688461832335</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="gengxin">
+      <created>1688462915425</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1688462915425</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

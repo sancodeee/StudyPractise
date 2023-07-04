@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
 
 @SpringBootApplication
-//@EnableAspectJAutoProxy
+@EnableAspectJAutoProxy
 public class CRUD02Application {
     public static void main(String[] args) {
         SpringApplication.run(CRUD02Application.class, args);

@@ -23,19 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d82d211c-b084-4b68-a67d-3ac5ac77d26e" name="Default Changelist" comment="gengxin">
-      <change afterPath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/config/AopConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/interceptor/LoginAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/interceptor/annotation/RequestLogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/EnumDemo/target/EnumDemo-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/EnumDemo/target/EnumDemo-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_aspect/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_aspect/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_aspect/src/main/java/com/ws/AspectApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_aspect/src/main/java/com/ws/AspectApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_aspect/src/main/java/com/ws/aspect/firstAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_aspect/src/main/java/com/ws/aspect/firstAspect.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot_crud02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud02/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/CRUD02Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/CRUD02Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/entity/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/entity/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_es/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_es/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_es/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_es/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/interceptor/LoginAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/interceptor/LoginAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/interceptor/annotation/RequestLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/interceptor/annotation/RequestLogin.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,9 +135,9 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.14257812" />
-    <property name="project.structure.side.proportion" value="0.23717217" />
+    <property name="project.structure.side.proportion" value="0.33174792" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RebelAgentSelection">
@@ -210,13 +203,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -456,7 +451,8 @@
       <workItem from="1688032103063" duration="1629000" />
       <workItem from="1688094795695" duration="4787000" />
       <workItem from="1688350335230" duration="1767000" />
-      <workItem from="1688365750543" duration="10184000" />
+      <workItem from="1688365750543" duration="10558000" />
+      <workItem from="1688442321134" duration="7881000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1672018459539</created>
@@ -654,7 +650,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688379603170</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="gengxin">
+      <created>1688442187248</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1688442187248</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

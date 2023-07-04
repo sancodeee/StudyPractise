@@ -22,14 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d82d211c-b084-4b68-a67d-3ac5ac77d26e" name="Default Changelist" comment="gengxin">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_aspect/src/main/java/com/ws/aspect/firstAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_aspect/src/main/java/com/ws/aspect/firstAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_crud02/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud02/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/CRUD02Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/CRUD02Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/interceptor/LoginAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/interceptor/LoginAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/interceptor/annotation/RequestLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/interceptor/annotation/RequestLogin.java" afterDir="false" />
-    </list>
+    <list default="true" id="d82d211c-b084-4b68-a67d-3ac5ac77d26e" name="Default Changelist" comment="gengxin" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -452,7 +445,7 @@
       <workItem from="1688094795695" duration="4787000" />
       <workItem from="1688350335230" duration="1767000" />
       <workItem from="1688365750543" duration="10558000" />
-      <workItem from="1688442321134" duration="7881000" />
+      <workItem from="1688442321134" duration="8511000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1672018459539</created>
@@ -657,7 +650,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688442187248</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="gengxin">
+      <created>1688461832334</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1688461832335</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

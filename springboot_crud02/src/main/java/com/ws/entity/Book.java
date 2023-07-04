@@ -37,5 +37,9 @@ public class Book {
     @TableField(value = "book_author")
     private Integer bookAuthor;
 
+    @ApiModelProperty(value = "删除标志位")
+    @TableField(value = "delete_flag")
+    private Integer deleteFlag;
+
 
 }

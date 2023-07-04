@@ -26,10 +26,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-aop</artifactId>
         </dependency>
+        <!-- AspectJ 相关依赖 -->
         <dependency>
             <groupId>org.aspectj</groupId>
-            <artifactId>aspectjrt</artifactId>
-            <version>1.9.7</version>
+            <artifactId>aspectjweaver</artifactId>
+            <version>1.9.7</version> <!-- 使用最新版本或适配的版本 -->
         </dependency>
 
     </dependencies>

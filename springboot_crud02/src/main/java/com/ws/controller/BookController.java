@@ -3,6 +3,7 @@ package com.ws.controller;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.ws.dto.BookWithAuthor;
 import com.ws.entity.Book;
+import com.ws.interceptor.annotation.RequestLogin;
 import com.ws.service.BookAuthorService;
 import com.ws.service.BookService;
 import com.ws.vo.BookCompleteVo;
@@ -69,6 +70,7 @@ public class BookController {
     }
 
     //根据书名查询结果 用sql连表查时间复杂度比较低 性能比较好
+    @RequestLogin
     @ApiOperation(value = "方法二：根据书名查询结果（sql）")
     @GetMapping(value = "/getBookByName2")
     public List<BookCompleteVo> getBookByName2(@ApiParam(value = "书籍名称", required = true)

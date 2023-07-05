@@ -14,6 +14,10 @@ public class LoginUserServiceImpl extends ServiceImpl<LoginUserDAO, LoginUserEnt
         return getBaseMapper().insert(loginUserEntity) > 1;
     }
 
+    @Override
+    public LoginUserEntity findUserById(String id) {
+        return getBaseMapper().selectById(id);
+    }
 
 
 }

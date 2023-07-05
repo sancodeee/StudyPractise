@@ -8,4 +8,6 @@ public interface LoginUserService extends IService<LoginUserEntity> {
 
     boolean addUserInfo(LoginUserEntity loginUserEntity);
 
+    LoginUserEntity findUserById(String id);
+
 }

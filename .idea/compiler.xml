@@ -21,6 +21,7 @@
         <module name="springboot_dictionary" />
         <module name="springboot_quartz" />
         <module name="Utils" />
+        <module name="springboot_loginDemo" />
         <module name="springboot_cache" />
         <module name="springboot_crud" />
       </profile>
@@ -40,6 +41,7 @@
       <module name="springboot_easyexcel" options="-parameters" />
       <module name="springboot_es" options="-parameters" />
       <module name="springboot_kafka" options="-parameters" />
+      <module name="springboot_loginDemo" options="-parameters" />
       <module name="springboot_mongodb" options="-parameters" />
       <module name="springboot_mq" options="-parameters" />
       <module name="springboot_proxy" options="-parameters" />

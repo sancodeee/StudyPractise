@@ -23,8 +23,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d82d211c-b084-4b68-a67d-3ac5ac77d26e" name="Default Changelist" comment="gengxin">
+      <change afterPath="$PROJECT_DIR$/springboot_aspect/springboot_aspect.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_loginDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_loginDemo/springboot_loginDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_loginDemo/src/main/java/com/ws/LoginApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_loginDemo/src/main/java/com/ws/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_loginDemo/src/main/java/com/ws/dao/LoginUserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_loginDemo/src/main/java/com/ws/entity/LoginUserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_loginDemo/src/main/java/com/ws/service/LoginUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_loginDemo/src/main/java/com/ws/service/impl/LoginUserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_loginDemo/src/main/java/com/ws/vo/result/ResultResp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_loginDemo/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_loginDemo/src/main/resources/mapper/LoginUserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/interceptor/LoginAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud02/src/main/java/com/ws/interceptor/LoginAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +52,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="FxmlFile" />
-        <option value="Interface" />
         <option value="AnnotationType" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -124,7 +138,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../workspace2/xitian/sources" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -132,7 +146,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.14257812" />
     <property name="project.structure.side.proportion" value="0.33174792" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
@@ -146,11 +160,11 @@
       <recent name="D:\workspace\StudyPractise\springboot_crud\src\main\resources\config" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\StudyPractise\springboot_loginDemo\src\main\resources" />
       <recent name="D:\workspace\StudyPractise\springboot_crud02\src\main\resources" />
       <recent name="D:\workspace\StudyPractise\springboot_crud02\src\main\resources\config" />
       <recent name="D:\workspace\StudyPractise\springboot_crud02\src\main\java\com\ws\mappers\xml" />
       <recent name="D:\workspace\StudyPractise\springboot_quartz\src\main\resources\config" />
-      <recent name="D:\workspace\StudyPractise\springboot_crud\src\main\java\com\ws\mappers\xml" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com" />
@@ -173,7 +187,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CRUD02Application">
+  <component name="RunManager" selected="Spring Boot.LoginApplication">
     <configuration name="JedisServiceImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ws.service.Impl.JedisServiceImpl" />
       <module name="springboot_redis" />
@@ -187,28 +201,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ws.leetcode.TestDemo" />
-      <module name="Utils" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ws.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -263,6 +262,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoginApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot_loginDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ws.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ws.LoginApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QuartzApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot_quartz" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ws.QuartzApplication" />
@@ -284,7 +296,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestDemo" />
       <item itemvalue="Application.JedisServiceImpl" />
       <item itemvalue="JUnit.SpringbootRedisTest.set" />
       <item itemvalue="Spring Boot.CRUDApplication" />
@@ -293,14 +304,15 @@
       <item itemvalue="Spring Boot.KillProcessApplication" />
       <item itemvalue="Spring Boot.RedisApplication" />
       <item itemvalue="Spring Boot.AspectApplication" />
+      <item itemvalue="Spring Boot.LoginApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.LoginApplication" />
         <item itemvalue="Spring Boot.AspectApplication" />
         <item itemvalue="Application.JedisServiceImpl" />
         <item itemvalue="JUnit.SpringbootRedisTest.set" />
         <item itemvalue="Spring Boot.RedisApplication" />
-        <item itemvalue="Application.TestDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -449,7 +461,8 @@
       <workItem from="1688094795695" duration="4787000" />
       <workItem from="1688350335230" duration="1767000" />
       <workItem from="1688365750543" duration="10558000" />
-      <workItem from="1688442321134" duration="13126000" />
+      <workItem from="1688442321134" duration="13954000" />
+      <workItem from="1688536653099" duration="6092000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1672018459539</created>
@@ -675,7 +688,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688466162806</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="gengxin">
+      <created>1688527854116</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1688527854116</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

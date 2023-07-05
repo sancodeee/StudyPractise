@@ -11,7 +11,7 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 public @interface RequestLogin {
 
-    //权限码
+    //权限码 默认是空
     String code() default  "";
 
 }

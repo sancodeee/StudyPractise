@@ -23,17 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d82d211c-b084-4b68-a67d-3ac5ac77d26e" name="Default Changelist" comment="gengxin">
-      <change afterPath="$PROJECT_DIR$/springboot_loginDemo/src/main/java/com/ws/Interceptor/AuthenticationInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_loginDemo/src/main/java/com/ws/annotation/LoginToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_loginDemo/src/main/java/com/ws/annotation/PassToken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_loginDemo/src/main/java/com/ws/config/InterceptorConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_loginDemo/src/main/java/com/ws/service/TokenService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_loginDemo/src/main/java/com/ws/service/impl/TokenServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_loginDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_loginDemo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_loginDemo/src/main/java/com/ws/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_loginDemo/src/main/java/com/ws/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_loginDemo/src/main/java/com/ws/service/LoginUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_loginDemo/src/main/java/com/ws/service/LoginUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_loginDemo/src/main/java/com/ws/service/impl/LoginUserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_loginDemo/src/main/java/com/ws/service/impl/LoginUserServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -449,7 +439,8 @@
       <workItem from="1688365750543" duration="10558000" />
       <workItem from="1688442321134" duration="13954000" />
       <workItem from="1688536653099" duration="10102000" />
-      <workItem from="1688551963865" duration="245000" />
+      <workItem from="1688551963865" duration="918000" />
+      <workItem from="1688606640285" duration="336000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1672018459539</created>
@@ -689,7 +680,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688548029190</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="gengxin">
+      <created>1688552707160</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1688552707160</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

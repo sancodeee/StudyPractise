@@ -3,27 +3,23 @@
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/EnumDemo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Utils/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_aspect/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_cache/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot_cache/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_crud/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_crud/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_crud02/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot_crud02/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_designPatterns/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_dictionary/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_easyexcel/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot_easyexcel/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_es/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_es/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_kafka/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot_kafka/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springboot_loginDemo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_mongodb/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_mongodb/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_mq/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot_mq/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_proxy/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot_proxy/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_quartz/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/springboot_quartz/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_redis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springboot_redis/src/main/resources" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />

@@ -24,7 +24,9 @@
         <module>springboot_proxy</module>
         <module>springboot_kafka</module>
         <module>Utils</module>
-
+        <module>springboot_dictionary</module>
+        <module>springboot_aspect</module>
+        <module>springboot_loginDemo</module>
     </modules>
 
     <properties>

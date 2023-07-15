@@ -9,6 +9,7 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.ws.mapper.BookMapper;
 import com.ws.pojo.Book;
 import com.ws.service.IBookService;
+import com.ws.vo.BookNameCountVo;
 import com.ws.vo.BookVo;
 import lombok.experimental.Accessors;
 import lombok.extern.slf4j.Slf4j;
@@ -71,6 +72,22 @@ public class IBookServiceImpl extends ServiceImpl<BookMapper, Book> implements I
             return null;
         }
     }
+
+    //根据书名查询该书在数据库中的信息条数
+    @Override
+    public BookNameCountVo getCountByName(String bookName) {
+        if (StringUtils.isNotBlank(bookName)){
+            BookNameCountVo bookNameCountVo = new BookNameCountVo();
+            LambdaQueryWrapper<Book> wrapper = new LambdaQueryWrapper<>();
+            wrapper.eq(Book::getName,bookName);
+            Long count = bookMapper.selectCount(wrapper);
+            bookNameCountVo.setCount(count);
+            bookNameCountVo.setName(bookName);
+            return bookNameCountVo;
+        }
+        return null;
+    }
+
 
     //根据id查询书籍
     @Override

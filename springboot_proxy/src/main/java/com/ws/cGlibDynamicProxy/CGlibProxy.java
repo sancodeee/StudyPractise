@@ -6,6 +6,9 @@ import org.springframework.cglib.proxy.MethodProxy;
 
 import java.lang.reflect.Method;
 
+/**
+ * 代理类
+ */
 //CGlib动态代理 ：属于第三方 CGLib ， 使用Enhancer创建代理对象
 public class CGlibProxy implements MethodInterceptor {
 

@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="dataSourceStorageLocal">
-    <data-source name="test@localhost" uuid="9489535d-d84d-4ae8-8045-2adcc79b287f">
-      <database-info product="MySQL" version="8.0.30" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="8.0.30" exact-driver-version="8.0">
-        <extra-name-characters>#@</extra-name-characters>
-        <identifier-quote-string>`</identifier-quote-string>
-      </database-info>
-      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
-      <secret-storage>master_key</secret-storage>
-      <user-name>root</user-name>
-      <schema-mapping>
-        <introspection-scope>
-          <node kind="schema" qname="@" />
-        </introspection-scope>
-      </schema-mapping>
-    </data-source>
     <data-source name="101.42.176.44" uuid="fd86f362-9b9f-4a2a-a058-275754de387b">
       <database-info product="MySQL" version="8.0.30" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="8.0.30" exact-driver-version="8.0">
         <extra-name-characters>#@</extra-name-characters>
@@ -26,6 +12,23 @@
       <schema-mapping>
         <introspection-scope>
           <node kind="schema" qname="@" />
+        </introspection-scope>
+      </schema-mapping>
+    </data-source>
+    <data-source name="@localhost" uuid="edf543e2-39bd-4c1f-85cf-a35bc2e6b8a4">
+      <database-info product="MySQL" version="8.0.30" jdbc-version="4.2" driver-name="MySQL Connector/J" driver-version="mysql-connector-java-8.0.25 (Revision: 08be9e9b4cba6aa115f9b27b215887af40b159e0)" dbms="MYSQL" exact-version="8.0.30" exact-driver-version="8.0">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="mysql" />
+            <name qname="test" />
+          </node>
         </introspection-scope>
       </schema-mapping>
     </data-source>

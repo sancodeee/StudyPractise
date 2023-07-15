@@ -23,15 +23,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d82d211c-b084-4b68-a67d-3ac5ac77d26e" name="Default Changelist" comment="代码更新">
-      <change afterPath="$PROJECT_DIR$/Utils/Utils.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utils/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utils/src/main/java/com/ws/KillProcessApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Utils/src/main/java/com/ws/utils/KillServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_kafka/springboot_kafka.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/4/442292b8a7efeabbe4cc176709b833b1792140ec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_crud/springboot_crud.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_designPatterns/springboot_designPatterns.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_designPatterns/src/main/java/com/ws/SingletonPattern/HungrySingleon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_designPatterns/src/main/java/com/ws/SingletonPattern/LazySingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_designPatterns/src/main/java/com/ws/SingletonPattern/Lock2Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_designPatterns/src/main/java/com/ws/SingletonPattern/Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_designPatterns/src/main/java/com/ws/SingletonPattern/introduction" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_easyexcel/springboot_easyexcel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9489535d-d84d-4ae8-8045-2adcc79b287f.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9489535d-d84d-4ae8-8045-2adcc79b287f/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/c/7/c7bfe3740a595aa35cdc22ee07acb4bee8861bc6" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/Utils.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_crud/target/classes/META-INF/spring-configuration-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_crud/target/classes/META-INF/spring-configuration-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_crud02/springboot_crud02.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_kafka/springboot_kafka.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_mq/springboot_mq.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,18 +100,18 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\maven\maven-repository" />
-        <option name="mavenHome" value="D:\maven\apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="D:\maven\settings\settings.xml" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../WorkProgramFiles/maven/apache-maven-3.6.3-bin/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\WorkProgramFiles\maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="vmOptionsForImporter" value="-Xms1024m -Xmx2048m" />
+        <option name="jdkForImporter" value="#JAVA_HOME" />
       </MavenImportingSettings>
     </option>
   </component>
   <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="2IUxY2clND8eENL9Fp4FRZ4rIiP" />
@@ -121,7 +136,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/EnumDemo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -132,7 +147,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.14257812" />
     <property name="project.structure.side.proportion" value="0.23717217" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.gutterIcons" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
@@ -169,7 +184,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.KillProcessApplication">
+  <component name="RunManager" selected="Spring Boot.EasyExcelApplication">
     <configuration name="KillServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ws.utils.KillServer" />
       <module name="Utils" />
@@ -207,14 +222,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CRUD02Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="CRUD02Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot_crud02" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ws.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ws.CRUD02Application" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -223,6 +232,19 @@
     <configuration name="CRUDApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot_crud" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ws.CRUDApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EasyExcelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="springboot_easyexcel" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ws.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ws.EasyExcelApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -261,21 +283,22 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.KillServer" />
       <item itemvalue="Spring Boot.CRUDApplication" />
       <item itemvalue="Spring Boot.QuartzApplication" />
       <item itemvalue="Spring Boot.CRUD02Application" />
       <item itemvalue="Spring Boot.ActiveMQApplication" />
       <item itemvalue="Spring Boot.KafkaApplication" />
-      <item itemvalue="Application.KillServer" />
       <item itemvalue="Spring Boot.KillProcessApplication" />
+      <item itemvalue="Spring Boot.EasyExcelApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.EasyExcelApplication" />
         <item itemvalue="Spring Boot.KillProcessApplication" />
         <item itemvalue="Application.KillServer" />
         <item itemvalue="Spring Boot.KafkaApplication" />
         <item itemvalue="Spring Boot.ActiveMQApplication" />
-        <item itemvalue="Spring Boot.CRUD02Application" />
       </list>
     </recent_temporary>
   </component>
@@ -386,6 +409,14 @@
       <workItem from="1680857204958" duration="1247000" />
       <workItem from="1681093746217" duration="634000" />
       <workItem from="1681184828762" duration="4884000" />
+      <workItem from="1683207837362" duration="235000" />
+      <workItem from="1683208103762" duration="1745000" />
+      <workItem from="1683209906177" duration="184000" />
+      <workItem from="1683210098321" duration="253000" />
+      <workItem from="1684074001985" duration="3310000" />
+      <workItem from="1684254319252" duration="609000" />
+      <workItem from="1689430204530" duration="2000" />
+      <workItem from="1689430217989" duration="2294000" />
     </task>
     <task id="LOCAL-00001" summary="更新">
       <created>1672018459539</created>

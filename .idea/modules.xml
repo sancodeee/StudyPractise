@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/EnumDemo/EnumDemo.iml" filepath="$PROJECT_DIR$/EnumDemo/EnumDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StudyPractise.iml" filepath="$PROJECT_DIR$/StudyPractise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Utils/Utils.iml" filepath="$PROJECT_DIR$/Utils/Utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_algorithm/springboot_algorithm.iml" filepath="$PROJECT_DIR$/springboot_algorithm/springboot_algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_aspect/springboot_aspect.iml" filepath="$PROJECT_DIR$/springboot_aspect/springboot_aspect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_cache/springboot_cache.iml" filepath="$PROJECT_DIR$/springboot_cache/springboot_cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_crud/springboot_crud.iml" filepath="$PROJECT_DIR$/springboot_crud/springboot_crud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_crud02/springboot_crud02.iml" filepath="$PROJECT_DIR$/springboot_crud02/springboot_crud02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_designPatterns/springboot_designPatterns.iml" filepath="$PROJECT_DIR$/springboot_designPatterns/springboot_designPatterns.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_dictionary/springboot_dictionary.iml" filepath="$PROJECT_DIR$/springboot_dictionary/springboot_dictionary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_easyexcel/springboot_easyexcel.iml" filepath="$PROJECT_DIR$/springboot_easyexcel/springboot_easyexcel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_es/springboot_es.iml" filepath="$PROJECT_DIR$/springboot_es/springboot_es.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_kafka/springboot_kafka.iml" filepath="$PROJECT_DIR$/springboot_kafka/springboot_kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_mongodb/springboot_mongodb.iml" filepath="$PROJECT_DIR$/springboot_mongodb/springboot_mongodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_mq/springboot_mq.iml" filepath="$PROJECT_DIR$/springboot_mq/springboot_mq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_proxy/springboot_proxy.iml" filepath="$PROJECT_DIR$/springboot_proxy/springboot_proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_quartz/springboot_quartz.iml" filepath="$PROJECT_DIR$/springboot_quartz/springboot_quartz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot_redis/springboot_redis.iml" filepath="$PROJECT_DIR$/springboot_redis/springboot_redis.iml" />
+    </modules>
+  </component>
+</project>

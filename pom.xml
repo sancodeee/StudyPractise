@@ -26,7 +26,7 @@
         <module>Utils</module>
         <module>springboot_dictionary</module>
         <module>springboot_aspect</module>
-        <module>springboot_loginDemo</module>
+        <module>springboot_algorithm</module>
     </modules>
 
     <properties>

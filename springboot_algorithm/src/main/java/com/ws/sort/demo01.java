@@ -10,7 +10,7 @@ import java.math.RoundingMode;
 public class demo01 {
 
     //计算某一轮所有人的总得分
-    public int calculateScore(int peopleCount , int round ,int[] eachRound){
+    public int calculateScore(int peopleCount, int round, int[] eachRound) {
 
         BigDecimal winRate = new BigDecimal(eachRound[0]).multiply(new BigDecimal("0.01"));
         BigDecimal failRate = new BigDecimal(eachRound[1]).multiply(new BigDecimal("0.01"));
@@ -25,10 +25,10 @@ public class demo01 {
     }
 
     //晋级人员 奖励得分机制
-    public int calculateBonus(int passNum , int outNum ){
+    public int calculateBonus(int passNum, int outNum) {
         //如果 晋级人数/淘汰人数 <= 1/10
-        if (passNum != 0 && outNum != 0){
-            if (((new BigDecimal(passNum).divide(new BigDecimal(outNum), 2, BigDecimal.ROUND_HALF_UP)).compareTo(new BigDecimal("0.01")) <= 0)){
+        if (passNum != 0 && outNum != 0) {
+            if ((new BigDecimal(passNum).divide(new BigDecimal(outNum), 2, BigDecimal.ROUND_HALF_UP)).compareTo(new BigDecimal("0.1")) <= 0) {
                 BigDecimal divide = new BigDecimal(outNum).divide(new BigDecimal(passNum)).setScale(0, RoundingMode.DOWN);
                 return divide.multiply(new BigDecimal(passNum)).intValue();
             }
@@ -37,14 +37,15 @@ public class demo01 {
     }
 
     //计算总得分
-    public int calculateSumScore(int N, int M, int [][] rounds){
+    public int calculateSumScore(int N, int M, int[][] rounds) {
         //初始人数为N
-        int peopleCount = N ;
+        int peopleCount = N;
         //总得分
-        int count = 0 ;
+        int count = 0;
 
         for (int i = 0; i < M; i++) {
             int[] round = rounds[i];
+            log.info("当前轮数：{}", (i+1));
             //每轮的得分
             int score = calculateScore(peopleCount, (i + 1), round);
             log.info("当前轮的得分:{}", score);
@@ -69,16 +70,17 @@ public class demo01 {
     }
 
     @Test
-    public void test(){
+    public void test() {
         int N = 1000;
-        int M = 3 ;
-        int[][] rounds = {{70,10,10,10},{5,85,0,10},{0,50,50,0}};
+        int M = 3;
+        int[][] rounds = {{70, 10, 10, 10},
+                {5, 85, 0, 10},
+                {0, 50, 50, 0}};
 
         int sum = calculateSumScore(N, M, rounds);
-
-        int average = sum / N;
-        System.out.println(average);
-
+        log.info("sum:{}", sum);
+        double average = new BigDecimal(sum).divide(new BigDecimal(N),2,BigDecimal.ROUND_HALF_UP).doubleValue();
+        log.info("平均分：{}", average);
     }
 
 

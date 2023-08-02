@@ -1,4 +1,4 @@
-package com.ws.sort;
+package com.ws.interviewIssue;
 
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
@@ -81,6 +81,7 @@ public class demo01 {
         log.info("sum:{}", sum);
         double average = new BigDecimal(sum).divide(new BigDecimal(N),2,BigDecimal.ROUND_HALF_UP).doubleValue();
         log.info("平均分：{}", average);
+        //时间复杂度是O(M)
     }
 
 

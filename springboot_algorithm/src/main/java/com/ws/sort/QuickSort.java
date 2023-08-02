@@ -1,14 +1,16 @@
 package com.ws.sort;
 
+import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 
+@Slf4j
 public class QuickSort {
 
     @Test
     public void test(){
         int[] arr = {3,4,5,2,1,9,8};
         quickSort(arr, 0, arr.length - 1);
-        System.out.println(arr);
+        log.info("{}",arr);
     }
 
     public static void quickSort(int[] arr , int low, int high){
@@ -25,7 +27,7 @@ public class QuickSort {
         int i = low - 1;
 
         //从最左边往右遍历 
-        for (int j = i; j < high; j++) {
+        for (int j = low; j < high; j++) {
             //将小于等于基准值的元素放到基准值左边
             if (arr[j] <= pivot) {
                 i++;

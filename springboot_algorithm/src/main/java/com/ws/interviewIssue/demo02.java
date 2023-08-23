@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 public class demo02 {
 
     @Test
-    public void test(){
+    public void test() {
         int[][] grid = {
                 {1, 2, 1},
                 {2, 2, 3},

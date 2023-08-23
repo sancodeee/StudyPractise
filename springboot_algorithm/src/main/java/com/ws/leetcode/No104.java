@@ -9,7 +9,7 @@ public class No104 {
     @Test
     public void test(){
         //1左移两位
-        int i = 1 << 1;
+        int i = 1 << 3;
         System.out.println(i);
 
     }

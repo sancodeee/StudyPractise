@@ -12,14 +12,14 @@ public abstract class Shape implements Cloneable {
 
     //重写 克隆方法
     public Object clone() {
-        Object clone = null;
+        Object cloneObject = null;
         try {
             //浅拷贝
-            clone = super.clone();
+            cloneObject = super.clone();
         }catch (CloneNotSupportedException e){
             e.printStackTrace();
         }
-        return clone;
+        return cloneObject;
     }
 
     public Shape(int x , int y){

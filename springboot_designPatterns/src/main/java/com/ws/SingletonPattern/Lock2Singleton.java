@@ -14,6 +14,7 @@ public class Lock2Singleton {
 
     public static Lock2Singleton getSingleton() {
         if (instance == null) {
+            //同步代码块 Singleton的class对象作为锁对象 class对象是由jvm生成的唯一的对象
             synchronized (Singleton.class) {   //2.方法锁
                 if (instance == null) {
                     instance = new Lock2Singleton();

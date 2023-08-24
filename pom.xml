@@ -27,6 +27,7 @@
         <module>springboot_dictionary</module>
         <module>springboot_aspect</module>
         <module>springboot_algorithm</module>
+        <module>springboot_concurrent</module>
     </modules>
 
     <properties>

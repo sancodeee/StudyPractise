@@ -1,12 +1,13 @@
 package com.ws.concurrent;
 
 import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
 
 public class Test {
 
     @org.junit.jupiter.api.Test
-    public void test() {
+    public void test() throws ExecutionException, InterruptedException {
         //lambda表达式 通过继承Thread开启线程1
         Thread threadOne = new Thread(() -> System.out.println("线程1-通过继承Thread类，重写run()方法实现"));
 
@@ -19,11 +20,14 @@ public class Test {
             System.out.println("线程3-通过实现Callable接口，实现call()方法实现");
             return "该方法有返回值";
         };
-        Thread threadThree = new Thread(new FutureTask<String>(callable));
+        FutureTask<String> futureTask = new FutureTask<>(callable);
+        Thread threadThree = new Thread(futureTask);
+
 
         threadOne.start();
         threadTwo.start();
         threadThree.start();
+        System.out.println(futureTask.get());
 
     }
 }

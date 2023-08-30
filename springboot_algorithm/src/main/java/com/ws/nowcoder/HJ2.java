@@ -10,13 +10,13 @@ public class HJ2 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        String str = scanner.nextLine().toLowerCase();
-        String c = scanner.nextLine().toLowerCase();
+        String str = scanner.nextLine();
+        String c = scanner.nextLine();
 
         int count = 0;
         for (int i = 0; i < str.length(); i++) {
             String c1 = new String(new char[]{str.charAt(i)});
-            if (c.equals(c1)) {
+            if (c.equalsIgnoreCase(c1)) {
                 count++;
             }
         }

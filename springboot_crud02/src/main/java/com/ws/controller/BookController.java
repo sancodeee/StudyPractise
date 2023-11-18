@@ -58,6 +58,7 @@ public class BookController {
     @GetMapping(value = "/getAllBookWithAuthor2")
     public List<BookCompleteVo> getAllBookWithAut2() {
         List<BookCompleteVo> allBookWithAuthor = bookService.getAllBookWithAuthor2();
+
         return allBookWithAuthor;
     }
 
@@ -93,6 +94,7 @@ public class BookController {
     public List<BookWithAuthor> getBookAuthorByName(@ApiParam(value = "书籍名称", required = true)
                                                     @RequestParam(value = "name", required = true) String name) {
         List<BookWithAuthor> bookAuthorList = bookAuthorService.getBookByName(name);
+        List<BookCompleteVo> t = bookService.getBookByName("张三");
         return bookAuthorList;
     }
 

@@ -15,7 +15,6 @@
         <module>springboot_mongodb</module>
         <module>springboot_redis</module>
         <module>springboot_crud</module>
-        <module>springboot_easyexcel</module>
         <module>springboot_designPatterns</module>
         <module>springboot_cache</module>
         <module>springboot_quartz</module>
@@ -28,6 +27,7 @@
         <module>springboot_aspect</module>
         <module>springboot_algorithm</module>
         <module>springboot_concurrent</module>
+        <module>springboot_excel</module>
     </modules>
 
     <properties>

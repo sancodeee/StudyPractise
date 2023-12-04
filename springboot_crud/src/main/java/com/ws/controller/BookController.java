@@ -8,9 +8,13 @@ import com.ws.vo.BookNameCountVo;
 import com.ws.vo.BookVo;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.validation.BindingResult;
+import org.springframework.validation.FieldError;
 import org.springframework.web.bind.annotation.*;
 
+import javax.validation.Valid;
 import javax.websocket.server.PathParam;
+import java.util.HashMap;
 import java.util.List;
 
 @Slf4j
@@ -117,7 +121,26 @@ public class BookController {
      * @return Result统一结果集
      */
     @PostMapping("/save")
-    public Result<Book> save(@RequestBody Book book) {
+    public Result<Book> save(@Valid @RequestBody Book book, BindingResult result) {
+        // 得到所有错误信息数量
+        int errorCount = result.getErrorCount();
+        if (errorCount > 0) {
+            // 得到所有错误
+            List<FieldError> fieldErrors = result.getFieldErrors();
+            HashMap<String, String> errorsMap = new HashMap<>();
+            // 遍历
+            fieldErrors.forEach(fieldError -> {
+                // 错误信息
+                String field = fieldError.getField();
+                // 出入值
+                Object rejectedValue = fieldError.getRejectedValue();
+                // 错误信息提示
+                String defaultMessage = fieldError.getDefaultMessage();
+                log.info("属性：{}，传入的值：{}，出错提示信息：{}", field, rejectedValue, defaultMessage);
+                errorsMap.put(field, defaultMessage);
+            });
+            Result.insertFail(errorsMap);
+        }
         boolean success = iBookService.save(book);
         return Result.insertOk(book);
     }

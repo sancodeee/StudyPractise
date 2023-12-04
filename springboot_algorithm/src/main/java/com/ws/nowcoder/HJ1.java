@@ -14,7 +14,7 @@ public class HJ1 {
     }
 
     //最后一个字符串长度
-    public static int LastStringLength(String str){
+    public static int LastStringLength(String str) {
         String[] split = str.split(" ");
         int i = split.length - 1;
         String s = split[i];

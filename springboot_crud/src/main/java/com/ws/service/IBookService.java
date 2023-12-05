@@ -29,7 +29,7 @@ public interface IBookService extends IService<Book> {
     Book getBookById(Integer id);
 
     //根据书名分页查询
-    IPage<Book> getBookByNamePage(String bookName , Integer pageNum , Integer pageSize);
+    IPage<Book> getBookByNamePage(String bookName, Integer pageNum, Integer pageSize);
 
     //更新书籍
     Boolean updateBook(Book book);

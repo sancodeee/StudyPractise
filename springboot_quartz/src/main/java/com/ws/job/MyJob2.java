@@ -6,9 +6,11 @@ import org.quartz.JobExecutionContext;
 import org.quartz.JobExecutionException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.quartz.QuartzJobBean;
+import org.springframework.stereotype.Component;
 
 //quartz定时任务内容类：具体的任务是什么，要继承QuartzJobBean类
 @Slf4j
+@Component
 public class MyJob2 extends QuartzJobBean {
 
     @Autowired

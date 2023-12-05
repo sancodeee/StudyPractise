@@ -23,7 +23,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>e
+                <configuration>
                     <mainClass>com.ws.RabbitMQApplication</mainClass>
                 </configuration>
                 <executions>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.ws.mapper.BookMapper">
+<mapper namespace="com.ws.dao.BookMapper">
 
 
 <!--    若实体类中的属性字段名和表中的字段名没有一一对应，则需要将实体类和表做一个映射   -->

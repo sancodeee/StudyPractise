@@ -8,7 +8,9 @@ import org.springframework.stereotype.Component;
 import java.net.Inet4Address;
 import java.net.UnknownHostException;
 
-//控制台打印接口文档地址
+/**
+ * 控制台打印接口文档地址
+ */
 @Component
 @Slf4j
 public class SwaggerPrintConfig implements ApplicationListener<WebServerInitializedEvent> {

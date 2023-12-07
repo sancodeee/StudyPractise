@@ -1,4 +1,4 @@
-package com.ws.mapper;
+package com.ws.dao;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;

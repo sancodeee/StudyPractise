@@ -2,7 +2,7 @@ package com.ws.mapperTest;
 
 import com.alibaba.fastjson.JSON;
 import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
-import com.ws.mapper.BookMapper;
+import com.ws.dao.BookMapper;
 import com.ws.pojo.Book;
 import org.elasticsearch.action.bulk.BulkRequest;
 import org.elasticsearch.action.get.GetRequest;

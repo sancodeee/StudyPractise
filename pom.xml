@@ -111,7 +111,7 @@
         </dependency>
 
     </dependencies>
-    <!-- maven打包插件 -->
+    <!-- maven打包插件 父模块引入，子模块会继承该配置-->
     <build>
         <plugins>
             <plugin>

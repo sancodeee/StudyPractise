@@ -20,8 +20,13 @@ import java.util.List;
 @Configuration
 @EnableSwagger2 //开启swagger2自动配置
 public class SwaggerConfig {
-    //以下为配置信息，如果不配置，swagger会使用默认配置
-    //创建一个swagger的bean实例
+
+    /**
+     * 以下为配置信息，如果不配置，swagger会使用默认配置
+     * 创建一个swagger的bean实例
+     *
+     * @return Docket
+     */
     @Bean
     public Docket docket() {
         //通过apiInfo对象配置基本信息
@@ -33,7 +38,11 @@ public class SwaggerConfig {
                 .globalOperationParameters(parametersConfig()); //添加请求头信息
     }
 
-    //设定基本信息
+    /**
+     * 设定基本信息
+     *
+     * @return
+     */
     private ApiInfo apiInfo() {
 
         //作者信息
@@ -52,18 +61,22 @@ public class SwaggerConfig {
                 .contact(contact).build();
     }
 
-    //设置请求头
-    public List<Parameter> parametersConfig(){
+    /**
+     * 设置请求头
+     *
+     * @return List
+     */
+    public List<Parameter> parametersConfig() {
         ArrayList<Parameter> parameters = new ArrayList<>();
         parameters.add(
                 new ParameterBuilder().name("token")
-                .description("token")
-                .modelRef(new ModelRef("String"))
-                .parameterType("header")
-                .defaultValue("default")
-                .hidden(true)
-                .required(false)
-                .build()
+                        .description("token")
+                        .modelRef(new ModelRef("String"))
+                        .parameterType("header")
+                        .defaultValue("default")
+                        .hidden(true)
+                        .required(false)
+                        .build()
 
         );
         parameters.add(
@@ -78,6 +91,5 @@ public class SwaggerConfig {
         );
         return parameters;
     }
-
-
+    
 }

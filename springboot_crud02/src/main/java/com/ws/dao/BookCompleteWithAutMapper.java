@@ -1,4 +1,4 @@
-package com.ws.mapper;
+package com.ws.dao;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.ws.vo.BookCompleteVo;

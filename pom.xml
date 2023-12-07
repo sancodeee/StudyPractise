@@ -27,8 +27,6 @@
         <module>springboot_aspect</module>
         <module>springboot_algorithm</module>
         <module>springboot_concurrent</module>
-        <module>springboot_excel</module>
-        <module>springboot_rabbitMQ</module>
         <module>springboot_rabbitMQ</module>
     </modules>
 

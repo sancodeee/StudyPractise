@@ -13,42 +13,33 @@ public class QuickSort {
         log.info("{}",arr);
     }
 
-    public static void quickSort(int[] arr , int low, int high){
-        if(low < high){
-            int partitionIndex = partition(arr, low, high);
-            quickSort(arr, low, partitionIndex -1);
-            quickSort(arr, partitionIndex+1, high);
+    public void quickSort(int[] arr, int low, int high) {
+        if (low < high) {
+            // 分区中间值
+            int partition = partition(arr, low, high);
+            quickSort(arr, low, partition - 1);
+            quickSort(arr, partition + 1, high);
         }
     }
 
-    /**
-     * 分区
-     *
-     * @param arr  数组
-     * @param low  低
-     * @param high 高
-     * @return int
-     */
-    public static int partition(int[] arr, int low, int high) {
-        //默认选择最右边的数作为 基准值
+    public int partition(int[] arr, int low, int high) {
+        // 取最右边的为基准值
         int pivot = arr[high];
         int i = low - 1;
-        //从最左边往右遍历 
         for (int j = low; j < high; j++) {
-            //将小于等于基准值的元素放到基准值左边
-            if (arr[j] <= pivot) {
+            // 如果左边值小于基准值，则不交换
+            if (arr[j] < pivot) {
                 i++;
+                // i指针指向遍历的low的位置，相当于不交换
                 swap(arr, i, j);
             }
         }
-
         swap(arr, i + 1, high);
         return i + 1;
     }
 
-
     /**
-     * 交换数组两个索引位置的值
+     * 交换数组元素
      *
      * @param arr 数组
      * @param i   i
@@ -59,5 +50,6 @@ public class QuickSort {
         arr[i] = arr[j];
         arr[j] = temp;
     }
+
 
 }

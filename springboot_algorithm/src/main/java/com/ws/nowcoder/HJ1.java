@@ -21,6 +21,7 @@ public class HJ1 {
         String[] split = str.split(" ");
         int i = split.length - 1;
         String s = split[i];
+        HashMap<String, String> map = new HashMap<>();
         return s.length();
     }
 

@@ -24,18 +24,23 @@ public class BubbleSort {
 
     public static void bubbleSort(int[] arr) {
         //数组长度
-        int n = arr.length;
+        int l = arr.length;
         //双指针循环
-        for (int i = 0; i < n - 1; i++) {
-            for (int j = 0; j < n - i - 1; j++) {
+        for (int i = 0; i < l - 1; i++) {
+            for (int j = 0; j < l - i - 1; j++) {
                 if (arr[j] > arr[j + 1]) {
                     // 交换 arr[j] 和 arr[j+1]
-                    int temp = arr[j];
-                    arr[j] = arr[j + 1];
-                    arr[j + 1] = temp;
+                    swap(arr, j, j + 1);
                 }
             }
         }
+    }
+
+    // 交换
+    public static void swap(int[] arr, int i, int j) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
     }
 
     //打印数组

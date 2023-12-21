@@ -3,8 +3,14 @@ package com.ws.sort;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 
+/**
+ * 快速排序 递归方式
+ *
+ * @author wangsen_a
+ * @date 2023/12/21
+ */
 @Slf4j
-public class QuickSort {
+public class QuickSortRecursion {
 
     @Test
     public void test(){

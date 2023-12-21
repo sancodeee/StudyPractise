@@ -19,7 +19,6 @@ public class QuickSortNoRecursion {
 
     }
 
-
     /**
      * 快速排序
      * 非递归方式
@@ -36,17 +35,14 @@ public class QuickSortNoRecursion {
             int high = stack.pop();
             int low = stack.pop();
             int partitionIndex = partition(arr, low, high);
-
             if (partitionIndex - 1 > low) {
                 stack.push(low);
                 stack.push(partitionIndex - 1);
             }
-
             if (partitionIndex + 1 < high) {
                 stack.push(partitionIndex + 1);
                 stack.push(high);
             }
-
         }
     }
 

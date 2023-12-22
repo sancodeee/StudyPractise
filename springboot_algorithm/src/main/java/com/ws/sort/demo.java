@@ -4,21 +4,55 @@ package com.ws.sort;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
+import java.util.Stack;
 
 public class demo {
 
     @Test
     public void test() {
-        int[] arr = {5, 2, 9, 1, 5, 6};
-        quickSort(arr, 0, arr.length - 1);
+        int[] arr = {4, 5, 5, 4, 5, 1};
+        // quickSort(arr, 0, arr.length - 1);
+        quickSort2(arr);
         System.out.println(Arrays.toString(arr));
     }
 
     public void quickSort(int[] arr, int low, int high) {
         if (low < high) {
-            int pivot = partition(arr, low, high);
-            quickSort(arr, low, pivot - 1);
-            quickSort(arr, pivot + 1, high);
+            int partitionIndex = partition(arr, low, high);
+            partition(arr, low, partitionIndex - 1);
+            partition(arr, partitionIndex + 1, high);
+        }
+    }
+
+    public void quickSort2(int[] arr) {
+        Stack<Integer> stack = new Stack<>();
+        stack.push(0);
+        stack.push(arr.length - 1);
+        while (!stack.isEmpty()) {
+            int high = stack.pop();
+            int low = stack.pop();
+            int partitionIndex = partition(arr, low, high);
+            if (low < partitionIndex - 1) {
+                stack.push(low);
+                stack.push(partitionIndex - 1);
+            }
+            if (partitionIndex + 1 < high) {
+                stack.push(partitionIndex + 1);
+                stack.push(high);
+            }
+        }
+    }
+
+
+    // 冒泡
+    public void BubbleSort(int[] arr) {
+        int l = arr.length;
+        for (int i = 0; i < l - 1; i++) {
+            for (int j = 0; j < l - i - 1; j++) {
+                if (arr[j] > arr[j + 1]) {
+                    swap(arr, j, j + 1);
+                }
+            }
         }
     }
 
@@ -35,17 +69,10 @@ public class demo {
         return i + 1;
     }
 
-    /**
-     * 交换数组索引位置的元素
-     *
-     * @param arr 数组
-     * @param i   i
-     * @param j   j
-     */
-    public static void swap(int[] arr, int i, int j) {
-        int temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
+    public void swap(int arr[], int a, int b) {
+        int temp = arr[a];
+        arr[a] = arr[b];
+        arr[b] = temp;
     }
 
 

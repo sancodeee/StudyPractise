@@ -2,6 +2,7 @@ package com.ws.sort;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.Arrays;
 import java.util.Stack;
 
 /**
@@ -15,7 +16,9 @@ public class QuickSortNoRecursion {
     @Test
     public void test() {
 
-
+        int[] arr = {3, 4, 5, 2, 1, 9, 8, 1};
+        quickSort(arr);
+        System.out.println(Arrays.toString(arr));
 
     }
 
@@ -31,6 +34,7 @@ public class QuickSortNoRecursion {
         // 初始化栈，将整个数组的范围入栈，每个元素表示一对索引，即当前元素子数组的范围
         stack.push(0);
         stack.push(arr.length - 1);
+        // 栈非空
         while (!stack.isEmpty()) {
             int high = stack.pop();
             int low = stack.pop();

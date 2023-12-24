@@ -3,15 +3,18 @@ package com.ws.sort;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
 
 
 public class demo {
 
     @Test
     public void test() {
-        Integer[] arr = {5, 2, 9, 1, 4, 5, 6};
+        List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6);
+        List<Integer> result = OddAndEven(list);
+        System.out.println(result);
 
-        System.out.println(Arrays.toString(arr));
     }
 
     public void quickSort(int[] arr, int low, int high) {
@@ -35,7 +38,6 @@ public class demo {
         return i + 1;
     }
 
-
     /**
      * 交换数组索引位置的元素
      *
@@ -49,5 +51,12 @@ public class demo {
         arr[j] = temp;
     }
 
+
+    public List<Integer> OddAndEven(List<Integer> list) {
+        List<Integer> evenList = list.stream().filter(a -> a % 2 == 0).collect(Collectors.toList());
+        List<Integer> oddList = list.stream().filter(a -> a % 2 == 1).collect(Collectors.toList());
+        evenList.addAll(oddList);
+        return evenList;
+    }
 
 }

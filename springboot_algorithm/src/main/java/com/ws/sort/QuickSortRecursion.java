@@ -13,10 +13,10 @@ import org.junit.jupiter.api.Test;
 public class QuickSortRecursion {
 
     @Test
-    public void test(){
-        int[] arr = {3,4,5,2,1,9,8};
+    public void test() {
+        int[] arr = {3, 4, 5, 2, 1, 9, 8};
         quickSort(arr, 0, arr.length - 1);
-        log.info("{}",arr);
+        log.info("{}", arr);
     }
 
     public void quickSort(int[] arr, int low, int high) {
@@ -56,6 +56,5 @@ public class QuickSortRecursion {
         arr[i] = arr[j];
         arr[j] = temp;
     }
-
 
 }

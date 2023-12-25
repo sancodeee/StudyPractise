@@ -3,6 +3,10 @@ package com.ws.sort;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Collectors;
+
 import java.util.HashMap;
 import java.util.Stack;
 import java.util.concurrent.locks.Condition;
@@ -13,6 +17,11 @@ import java.util.regex.Pattern;
 public class demo {
 
     @Test
+    public void test() {
+        List<Integer> list = Arrays.asList(1, 2, 3, 4, 5, 6);
+        List<Integer> result = OddAndEven(list);
+        System.out.println(result);
+
     public void test() throws InterruptedException {
         // int[] arr = {4, 5, 5, 4, 5, 1};
         // // quickSort(arr, 0, arr.length - 1);
@@ -96,5 +105,12 @@ public class demo {
         arr[b] = temp;
     }
 
+
+    public List<Integer> OddAndEven(List<Integer> list) {
+        List<Integer> evenList = list.stream().filter(a -> a % 2 == 0).collect(Collectors.toList());
+        List<Integer> oddList = list.stream().filter(a -> a % 2 == 1).collect(Collectors.toList());
+        evenList.addAll(oddList);
+        return evenList;
+    }
 
 }

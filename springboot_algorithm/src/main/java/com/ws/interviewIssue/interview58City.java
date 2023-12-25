@@ -29,7 +29,6 @@ public class interview58City {
      * @date 2023/12/24
      */
     static class CustomComparator implements Comparator<Integer> {
-
         @Override
         public int compare(Integer a, Integer b) {
             if (a % 2 == 0 && b % 2 != 0) {

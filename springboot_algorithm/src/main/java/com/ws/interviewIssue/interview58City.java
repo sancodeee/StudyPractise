@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 /**
- * demo58
+ * demo 58同城
  * 给定一个静态数组，将偶数放在前面，奇数放在后面
  *
  * @author wangsen
@@ -32,16 +32,14 @@ public class interview58City {
         @Override
         public int compare(Integer a, Integer b) {
             if (a % 2 == 0 && b % 2 != 0) {
-                // 返回负数表示第一个数小于第二个数
+                // 返回负数表示第一个数排在第二个数前面
                 return -1;
             }
             if (a % 2 != 0 && b % 2 == 0) {
-                // 返回正数表示第一个数大于第二个数
+                // 返回正数表示第一个数排在第二个数后面
                 return 1;
             }
             return a.compareTo(b);
         }
     }
-
-
 }

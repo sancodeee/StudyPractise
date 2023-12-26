@@ -12,7 +12,7 @@ public class No1768 {
     @Test
     public void test() {
         String word1 = "1234";
-        String word2 = "abcd";
+        String word2 = "abcde";
         log.info("合并后的字符串是：{}", mergeAlternately(word1, word2));
     }
 

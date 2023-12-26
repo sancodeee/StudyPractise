@@ -1,5 +1,11 @@
 package com.ws.leetcode;
 
+/**
+ * 树节点
+ *
+ * @author wangsen_a
+ * @date 2023/12/26
+ */
 public class TreeNode {
 
     int val;

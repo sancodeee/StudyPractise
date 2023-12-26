@@ -12,7 +12,7 @@ public class No1768 {
     @Test
     public void test() {
         String word1 = "1234";
-        String word2 = "abcde";
+        String word2 = "abc";
         log.info("合并后的字符串是：{}", mergeAlternately(word1, word2));
     }
 
@@ -20,6 +20,7 @@ public class No1768 {
         StringBuilder appendWord1 = new StringBuilder().append(word1);
         StringBuilder appendWord2 = new StringBuilder().append(word2);
         StringBuilder result = new StringBuilder();
+        // 如果第一个字符串长度大于等于第二个字符串长度
         if (appendWord1.length() >= appendWord2.length()) {
             for (int i = 0; i < appendWord1.length(); i++) {
                 char c1 = appendWord1.charAt(i);

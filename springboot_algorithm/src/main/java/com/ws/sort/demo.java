@@ -3,15 +3,31 @@ package com.ws.sort;
 
 import org.junit.jupiter.api.Test;
 
-import java.util.Arrays;
+import java.util.HashMap;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
 
 public class demo {
 
     @Test
-    public void test() {
-        int[] arr = {3, 2, 4, 5, 7, 6};
-        quickSort(arr, 0, arr.length - 1);
-        System.out.println(Arrays.toString(arr));
+    public void test() throws ExecutionException, InterruptedException {
+        // int[] arr = {3, 2, 4, 5, 7, 6};
+        // quickSort(arr, 0, arr.length - 1);
+        // System.out.println(Arrays.toString(arr));
+
+        ExecutorService threadPool = Executors.newFixedThreadPool(5);
+        // .execute()方法无返回值
+        threadPool.execute(() -> System.out.println("线程1..."));
+        // .submit()方法有返回值
+        Future<?> future = threadPool.submit(() -> {
+            System.out.println("线程2");
+            return;
+        });
+
+        HashMap<Object, Object> objectObjectHashMap = new HashMap<>();
+
 
     }
 

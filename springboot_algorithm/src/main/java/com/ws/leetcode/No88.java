@@ -73,15 +73,7 @@ public class No88 {
         // 正序排序
         Arrays.sort(mergedNums);
         // 反转数组
-        int left = 0;
-        int right = mergedNums.length - 1;
-        while (left < right) {
-            int temp = mergedNums[left];
-            mergedNums[left] = mergedNums[right];
-            mergedNums[right] = temp;
-            left++;
-            right--;
-        }
+        reversalNums(mergedNums);
         return mergedNums;
     }
 

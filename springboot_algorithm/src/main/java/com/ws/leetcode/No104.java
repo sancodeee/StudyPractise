@@ -13,7 +13,7 @@ import org.junit.jupiter.api.Test;
 public class No104 {
 
     @Test
-    public void test(){
+    public void test() {
         //1左移两位
         int i = 1 << 2;
         System.out.println(i);

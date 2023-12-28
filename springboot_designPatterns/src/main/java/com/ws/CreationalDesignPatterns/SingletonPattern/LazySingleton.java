@@ -14,6 +14,7 @@ public class LazySingleton {
 
     //对外暴露创建实例的唯一接口方法
     public static synchronized LazySingleton getInstance() {
+        // 实例为null时才进行创建，否则直接返回，从而保证了单例
         if (instance == null) {
             instance = new LazySingleton();
         }

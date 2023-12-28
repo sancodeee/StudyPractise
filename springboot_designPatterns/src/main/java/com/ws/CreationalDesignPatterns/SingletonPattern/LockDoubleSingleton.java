@@ -23,6 +23,7 @@ public class LockDoubleSingleton {
      * @return {@link LockDoubleSingleton}
      */
     public static LockDoubleSingleton getSingleton() {
+        // 实例为null时才执行创建部分，从而保证了单例
         if (instance == null) {
             //同步代码块 本类的class对象作为锁对象 class对象是由jvm生成的唯一的对象
             synchronized (LockDoubleSingleton.class) {

@@ -33,10 +33,8 @@ public class QuickSortRecursion {
         int pivot = arr[high];
         int i = low - 1;
         for (int j = low; j < high; j++) {
-            // 如果左边值小于基准值，则不交换
             if (arr[j] < pivot) {
                 i++;
-                // i指针指向遍历的low的位置，相当于不交换
                 swap(arr, i, j);
             }
         }

@@ -34,7 +34,6 @@ public class LinkedList {
         last.next = newNode;
     }
 
-
     /**
      * 头插法
      *

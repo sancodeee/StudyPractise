@@ -8,6 +8,7 @@ package com.ws.dataStructures;
  */
 public class Node {
     int data;
+
     Node next;
 
     public Node(int data) {

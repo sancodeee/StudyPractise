@@ -15,13 +15,18 @@ public class BubbleSort {
 
         System.out.println("原始数组：");
         printArray(arr);
-
+        // 冒泡排序
         bubbleSort(arr);
 
         System.out.println("\n排序后的数组：");
         printArray(arr);
     }
 
+    /**
+     * 冒泡排序
+     *
+     * @param arr 数组
+     */
     public static void bubbleSort(int[] arr) {
         //数组长度
         int l = arr.length;
@@ -36,14 +41,25 @@ public class BubbleSort {
         }
     }
 
-    // 交换
+
+    /**
+     * 交换
+     *
+     * @param arr 数组
+     * @param i   索引i
+     * @param j   索引j
+     */
     public static void swap(int[] arr, int i, int j) {
         int temp = arr[i];
         arr[i] = arr[j];
         arr[j] = temp;
     }
 
-    //打印数组
+    /**
+     * 打印数组
+     *
+     * @param arr 数组
+     */
     public static void printArray(int[] arr) {
         for (int value : arr) {
             System.out.print(value + " ");

@@ -14,17 +14,21 @@ public class No104 {
 
     @Test
     public void test() {
-        //1左移两位
-        int i = 1 << 2;
-        System.out.println(i);
-
+        // 创建一个二叉树
+        TreeNode root = new TreeNode(1);
+        root.left = new TreeNode(2);
+        root.right = new TreeNode(3);
+        root.left.left = new TreeNode(4);
+        root.left.right = new TreeNode(5);
+        int maxDepth = maxDepth(root);
+        System.out.println("二叉树最大深度为：" + maxDepth);
     }
 
     /**
      * 最大深度
      *
      * @param root 根
-     * @return int·
+     * @return int
      */
     public int maxDepth(TreeNode root) {
         if (root == null) {

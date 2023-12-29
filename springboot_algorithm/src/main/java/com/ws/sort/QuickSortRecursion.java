@@ -28,6 +28,14 @@ public class QuickSortRecursion {
         }
     }
 
+    /**
+     * 分区
+     *
+     * @param arr  数组
+     * @param low  低
+     * @param high 高
+     * @return int
+     */
     public int partition(int[] arr, int low, int high) {
         // 取最右边的为基准值
         int pivot = arr[high];

@@ -37,14 +37,18 @@ public class BreadthFirstSearch {
         }
         // 利用队列做二叉树的广度优先遍历
         Queue<TreeNode> queue = new LinkedList<>();
+        // 根节点加入队列
         queue.offer(root);
         while (!queue.isEmpty()) {
+            // 出队列
             TreeNode current = queue.poll();
             System.out.println(current.val);
             if (current.left != null) {
+                // 左孩子节点加入队列
                 queue.offer(current.left);
             }
             if (current.right != null) {
+                // 右孩子节点加入队列
                 queue.offer(current.right);
             }
         }

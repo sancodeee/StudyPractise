@@ -16,9 +16,9 @@ public class No27 {
 
     @Test
     public void test() {
-        int[] nums = {3, 2, 2, 3};
+        int[] nums = {3, 2, 2, 3, 3, 3};
         int val = 3;
-        int i = removeElement1(nums, 3);
+        int i = removeElement1(nums, val);
         System.out.println(i);
     }
 
@@ -30,9 +30,11 @@ public class No27 {
      * @return int
      */
     public int removeElement1(int[] nums, int val) {
+        // 双指针遍历
         int j = nums.length - 1;
         for (int i = 0; i < j; i++) {
             if (nums[i] == val) {
+                // 将等于val的元素移动到数组末尾
                 swap(nums, i--, j--);
             }
         }
@@ -50,12 +52,20 @@ public class No27 {
         int i = 0;
         for (int x : nums) {
             if (x != val) {
+                // 如果元素不是val，则移动到数组前边
                 nums[i++] = x;
             }
         }
         return i;
     }
 
+    /**
+     * 交换数组元素
+     *
+     * @param nums 数组
+     * @param i    i
+     * @param j    j
+     */
     void swap(int[] nums, int i, int j) {
         int tmp = nums[i];
         nums[i] = nums[j];

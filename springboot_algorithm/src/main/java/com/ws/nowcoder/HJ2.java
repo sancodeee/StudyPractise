@@ -14,7 +14,7 @@ public class HJ2 {
 
         int count = 0;
         for (int i = 0; i < str.length(); i++) {
-            String c1 = new String(new char[]{str.charAt(i)});
+            String c1 = String.valueOf(str.charAt(i));
             if (c.equalsIgnoreCase(c1)) {
                 count++;
             }

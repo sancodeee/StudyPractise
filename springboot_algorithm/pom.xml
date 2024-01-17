@@ -22,6 +22,11 @@
             <artifactId>commons-lang3</artifactId>
             <version>3.13.0</version>
         </dependency>
+        <dependency>
+            <groupId>com.gitee.huanminabc</groupId>
+            <artifactId>null-chain</artifactId>
+            <version>1.0.2-RELEASE</version>
+        </dependency>
     </dependencies>
 
 </project>

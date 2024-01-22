@@ -2,30 +2,31 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <!-- 父依赖 -->
     <parent>
         <artifactId>StudyPractise</artifactId>
-        <groupId>org.example</groupId>
-        <version>1.0-SNAPSHOT</version>
+        <groupId>com.ws</groupId>
+        <version>1.0.0</version>
     </parent>
-    <modelVersion>4.0.0</modelVersion>
-
     <artifactId>springboot_algorithm</artifactId>
+    <name>${artifactId}</name>
+    <description>算法模块</description>
+    <version>1.0.0</version>
 
+    <!-- 属性 -->
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
+        <!-- 依赖版本号 -->
+        <commons.lang3.version>3.13.0</commons.lang3.version>
     </properties>
-
+    <!-- 第三方依赖 -->
     <dependencies>
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
-            <version>3.13.0</version>
-        </dependency>
-        <dependency>
-            <groupId>com.gitee.huanminabc</groupId>
-            <artifactId>null-chain</artifactId>
-            <version>1.0.2-RELEASE</version>
+            <version>${commons.lang3.version}</version>
         </dependency>
     </dependencies>
 

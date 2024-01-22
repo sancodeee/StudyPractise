@@ -35,6 +35,7 @@
         <module>springboot_algorithm</module>
         <module>springboot_concurrent</module>
         <module>springboot_rabbitMQ</module>
+        <module>springboot-qt</module>
     </modules>
     <!-- 属性 -->
     <properties>

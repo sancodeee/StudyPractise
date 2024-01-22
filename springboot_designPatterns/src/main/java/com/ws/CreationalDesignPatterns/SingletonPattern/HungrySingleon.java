@@ -9,7 +9,7 @@ package com.ws.CreationalDesignPatterns.SingletonPattern;
  */
 public class HungrySingleon {
 
-    private static HungrySingleon instance = new HungrySingleon();
+    private static final HungrySingleon instance = new HungrySingleon();
 
     private HungrySingleon() {
     }

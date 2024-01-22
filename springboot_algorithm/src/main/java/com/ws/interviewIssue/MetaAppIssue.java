@@ -57,7 +57,7 @@ public class MetaAppIssue {
         System.out.println("进度信息所在行信息结果：");
         // 根据key值从小到大排序后打印日志行
         scheMap.entrySet().stream().sorted(Map.Entry.comparingByKey()).forEach(entry -> {
-            System.out.println("行数：" + entry.getKey() + "，日志信息：" + entry.getValue());
+            System.out.println("行数：" + entry.getKey() + "，进度日志信息：" + entry.getValue());
         });
 
     }

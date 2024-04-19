@@ -24,9 +24,12 @@ import java.math.RoundingMode;
  * 第3轮505000
  * 其上表示 第1 轮1000 人有1000*70/100=700 人胜利晋级下一轮,1000*10/100=100 人失败淘汰，1000*10/100=100 人平局晋级下一轮， 1000*10/100=100 人放弃比赛，该轮总积分为:700*2+100*1=1500
  * 以此类推，最终所有轮次比赛结束后 每人平均积分为 2460/1000=2.46
+ *
+ * @author wangsen_a
+ * @date 2024/04/19
  */
 @Slf4j
-public class demo01 {
+public class Demo01 {
 
     //计算某一轮所有人的总得分
     public int calculateScore(int peopleCount, int round, int[] eachRound) {

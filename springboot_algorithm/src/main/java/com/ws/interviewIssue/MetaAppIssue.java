@@ -1,5 +1,6 @@
 package com.ws.interviewIssue;
 
+import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 
 import java.io.BufferedReader;
@@ -19,6 +20,7 @@ import java.util.stream.Collectors;
  * @author wangsen
  * @date 2024/01/22
  */
+@Slf4j
 public class MetaAppIssue {
 
     //log文件路径
@@ -92,13 +94,13 @@ public class MetaAppIssue {
                 result.addAll(strInLine);
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            log.error("捕获异常:", e);
         } finally {
             if (br != null) {
                 try {
                     br.close();
                 } catch (IOException e) {
-                    e.printStackTrace();
+                    log.error("捕获异常：", e);
                 }
             }
         }

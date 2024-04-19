@@ -3,9 +3,12 @@ package com.ws.interviewIssue;
 import org.junit.jupiter.api.Test;
 
 /**
+ * demo02
  *
+ * @author wangsen_a
+ * @date 2024/04/19
  */
-public class demo02 {
+public class Demo02 {
 
     @Test
     public void test() {

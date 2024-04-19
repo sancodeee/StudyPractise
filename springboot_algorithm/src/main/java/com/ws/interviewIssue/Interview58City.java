@@ -12,7 +12,7 @@ import java.util.Comparator;
  * @author wangsen
  * @date 2023/12/24
  */
-public class interview58City {
+public class Interview58City {
 
     @Test
     public void test() {
@@ -39,7 +39,7 @@ public class interview58City {
                 // 返回正数表示第一个数排在第二个数后面
                 return 1;
             }
-            return a.compareTo(b);
+                return a.compareTo(b);
         }
     }
 }

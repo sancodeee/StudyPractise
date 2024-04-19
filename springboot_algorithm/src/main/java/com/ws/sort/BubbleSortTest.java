@@ -1,13 +1,17 @@
 package com.ws.sort;
 
+import com.ws.common.CommonUtils;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 
 /**
  * 冒泡排序
+ *
+ * @author wangsen_a
+ * @date 2024/04/19
  */
 @Slf4j
-public class BubbleSort {
+public class BubbleSortTest {
 
     @Test
     public void test() {
@@ -50,9 +54,7 @@ public class BubbleSort {
      * @param j   索引j
      */
     public static void swap(int[] arr, int i, int j) {
-        int temp = arr[i];
-        arr[i] = arr[j];
-        arr[j] = temp;
+        CommonUtils.swap(arr, i, j);
     }
 
     /**

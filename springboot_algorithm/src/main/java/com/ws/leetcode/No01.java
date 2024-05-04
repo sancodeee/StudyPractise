@@ -10,7 +10,7 @@ import java.util.HashMap;
  * @author wangsen
  * @date 2024/05/04
  */
-public class NO01 {
+public class No01 {
 
 
     @Test

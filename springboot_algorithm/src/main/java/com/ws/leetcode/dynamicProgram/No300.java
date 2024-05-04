@@ -1,4 +1,4 @@
-package com.ws.leetcode;
+package com.ws.leetcode.dynamicProgram;
 
 import java.util.Arrays;
 

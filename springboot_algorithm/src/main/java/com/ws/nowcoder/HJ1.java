@@ -2,7 +2,6 @@ package com.ws.nowcoder;
 
 import org.jetbrains.annotations.NotNull;
 
-import java.util.HashMap;
 import java.util.Scanner;
 
 //字符串最后一个单词的长度

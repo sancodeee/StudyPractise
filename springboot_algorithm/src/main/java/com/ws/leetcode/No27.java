@@ -1,5 +1,6 @@
 package com.ws.leetcode;
 
+import com.ws.common.CommonUtils;
 import org.junit.jupiter.api.Test;
 
 /**
@@ -67,8 +68,6 @@ public class No27 {
      * @param j    j
      */
     void swap(int[] nums, int i, int j) {
-        int tmp = nums[i];
-        nums[i] = nums[j];
-        nums[j] = tmp;
+        CommonUtils.swap(nums, i, j);
     }
 }

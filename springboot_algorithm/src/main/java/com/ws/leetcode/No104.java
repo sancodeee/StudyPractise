@@ -36,6 +36,7 @@ public class No104 {
         }
         int leftHeight = maxDepth(root.left);
         int rightHeight = maxDepth(root.right);
+        // 左右子树比较一次，说明递归一次，即深度+1
         return Math.max(leftHeight, rightHeight) + 1;
     }
 

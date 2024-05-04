@@ -2,6 +2,12 @@ package com.ws.nowcoder;
 
 import java.util.Scanner;
 
+/**
+ * hj16
+ *
+ * @author wangsen
+ * @date 2024/05/04
+ */
 public class HJ16 {
     public static void main(String[] args) {
 

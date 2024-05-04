@@ -4,6 +4,9 @@ import java.util.Scanner;
 
 /**
  * 计算某字符出现的次数
+ *
+ * @author wangsen
+ * @date 2024/05/04
  */
 public class HJ2 {
 

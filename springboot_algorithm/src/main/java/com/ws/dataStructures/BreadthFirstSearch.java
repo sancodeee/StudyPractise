@@ -21,17 +21,17 @@ public class BreadthFirstSearch {
         root.right = new TreeNode(3);
         root.left.left = new TreeNode(4);
         root.left.right = new TreeNode(5);
-
-        dfs(root);
+        // 广度优先遍历测试
+        bfs(root);
     }
 
     /**
-     * dfs
+     * BFS
      * <p>广度优先遍历
      *
      * @param root 根
      */
-    public static void dfs(TreeNode root) {
+    public static void bfs(TreeNode root) {
         if (root == null) {
             return;
         }

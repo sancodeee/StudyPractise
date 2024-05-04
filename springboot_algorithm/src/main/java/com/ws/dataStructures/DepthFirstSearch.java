@@ -1,5 +1,7 @@
 package com.ws.dataStructures;
 
+import org.junit.jupiter.api.Test;
+
 /**
  * 二叉树深度优先搜索
  *
@@ -8,19 +10,20 @@ package com.ws.dataStructures;
  */
 public class DepthFirstSearch {
 
+    @Test
     public void test() {
         // 创建一个二叉树
-        TreeNode root = new TreeNode(1);
+        TreeNode root = new TreeNode(2);
         root.left = new TreeNode(2);
         root.right = new TreeNode(3);
         root.left.left = new TreeNode(4);
         root.left.right = new TreeNode(5);
-
+        // 深度优先遍历测试
         dfs(root);
     }
 
     /**
-     * dfs
+     * DFS
      * 递归实现深度优先遍历
      *
      * @param node 节点

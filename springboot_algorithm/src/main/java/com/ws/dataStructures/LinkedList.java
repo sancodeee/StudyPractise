@@ -1,6 +1,7 @@
 package com.ws.dataStructures;
 
 /**
+ * 数据结构：
  * 自定义链表
  *
  * @author wangsen_a
